@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "assembledAt": "2026-06-15T21:10:13.753Z",
+  "gitSha": "0925a627c05acd34cfe09b01cf66d1ed4ca174dc",
+  "dryRun": false,
+  "runSummary": {
+    "totalCases": 15,
+    "passedCases": 5,
+    "failedCases": 10,
+    "allSuitesGreen": false,
+    "suites": [
+      "loom-routing",
+      "tapestry-execution"
+    ]
+  },
+  "provenanceRef": {
+    "manifestPath": "provenance-manifest.json",
+    "gitSha": "0925a627c05acd34cfe09b01cf66d1ed4ca174dc",
+    "capturedAt": "2026-06-15T21:10:13.750Z",
+    "agentCount": 2
+  },
+  "scoreFiles": [
+    "loom-routing",
+    "tapestry-execution"
+  ]
+}
