@@ -1,0 +1,182 @@
+{
+  "suite": "tapestry-execution",
+  "assembledAt": "2026-06-15T21:10:13.753Z",
+  "gitSha": "0925a627c05acd34cfe09b01cf66d1ed4ca174dc",
+  "dryRun": false,
+  "results": [
+    {
+      "caseId": "tapestry-delegate-to-shuttle",
+      "modelId": "anthropic/claude-opus-4.5",
+      "suite": "tapestry-execution",
+      "passed": false,
+      "required": true,
+      "weightedTotal": 0.7375,
+      "dimensionScores": {
+        "routingCorrectness": {
+          "score": 1,
+          "applicable": false
+        },
+        "delegationCorrectness": {
+          "score": 0.85,
+          "applicable": true
+        },
+        "executionCompleteness": {
+          "score": 1,
+          "applicable": false
+        },
+        "rationaleQuality": {
+          "score": 0.4,
+          "applicable": true
+        }
+      },
+      "scoredAt": "2026-06-15T21:05:46.557Z",
+      "dryRun": false
+    },
+    {
+      "caseId": "tapestry-execute-plan-step",
+      "modelId": "anthropic/claude-opus-4.5",
+      "suite": "tapestry-execution",
+      "passed": true,
+      "required": true,
+      "weightedTotal": 0.76,
+      "dimensionScores": {
+        "routingCorrectness": {
+          "score": 1,
+          "applicable": false
+        },
+        "delegationCorrectness": {
+          "score": 1,
+          "applicable": false
+        },
+        "executionCompleteness": {
+          "score": 1,
+          "applicable": true
+        },
+        "rationaleQuality": {
+          "score": 0.2,
+          "applicable": true
+        }
+      },
+      "scoredAt": "2026-06-15T21:06:22.463Z",
+      "dryRun": false
+    },
+    {
+      "caseId": "tapestry-delegate-to-shuttle",
+      "modelId": "anthropic/claude-sonnet-4.5",
+      "suite": "tapestry-execution",
+      "passed": true,
+      "required": true,
+      "weightedTotal": 0.8374999999999999,
+      "dimensionScores": {
+        "routingCorrectness": {
+          "score": 1,
+          "applicable": false
+        },
+        "delegationCorrectness": {
+          "score": 1,
+          "applicable": true
+        },
+        "executionCompleteness": {
+          "score": 1,
+          "applicable": false
+        },
+        "rationaleQuality": {
+          "score": 0.35,
+          "applicable": true
+        }
+      },
+      "scoredAt": "2026-06-15T21:07:38.936Z",
+      "dryRun": false
+    },
+    {
+      "caseId": "tapestry-execute-plan-step",
+      "modelId": "anthropic/claude-sonnet-4.5",
+      "suite": "tapestry-execution",
+      "passed": true,
+      "required": true,
+      "weightedTotal": 0.73,
+      "dimensionScores": {
+        "routingCorrectness": {
+          "score": 1,
+          "applicable": false
+        },
+        "delegationCorrectness": {
+          "score": 1,
+          "applicable": false
+        },
+        "executionCompleteness": {
+          "score": 1,
+          "applicable": true
+        },
+        "rationaleQuality": {
+          "score": 0.1,
+          "applicable": true
+        }
+      },
+      "scoredAt": "2026-06-15T21:08:05.642Z",
+      "dryRun": false
+    },
+    {
+      "caseId": "tapestry-delegate-to-shuttle",
+      "modelId": "openai/gpt-5.5",
+      "suite": "tapestry-execution",
+      "passed": true,
+      "required": true,
+      "weightedTotal": 0.8499999999999999,
+      "dimensionScores": {
+        "routingCorrectness": {
+          "score": 1,
+          "applicable": false
+        },
+        "delegationCorrectness": {
+          "score": 1,
+          "applicable": true
+        },
+        "executionCompleteness": {
+          "score": 1,
+          "applicable": false
+        },
+        "rationaleQuality": {
+          "score": 0.4,
+          "applicable": true
+        }
+      },
+      "scoredAt": "2026-06-15T21:09:49.263Z",
+      "dryRun": false
+    },
+    {
+      "caseId": "tapestry-execute-plan-step",
+      "modelId": "openai/gpt-5.5",
+      "suite": "tapestry-execution",
+      "passed": false,
+      "required": true,
+      "weightedTotal": 0.6649999999999999,
+      "dimensionScores": {
+        "routingCorrectness": {
+          "score": 1,
+          "applicable": false
+        },
+        "delegationCorrectness": {
+          "score": 1,
+          "applicable": false
+        },
+        "executionCompleteness": {
+          "score": 0.95,
+          "applicable": true
+        },
+        "rationaleQuality": {
+          "score": 0,
+          "applicable": true
+        }
+      },
+      "scoredAt": "2026-06-15T21:10:07.340Z",
+      "dryRun": false
+    }
+  ],
+  "totals": {
+    "totalCases": 6,
+    "passedCases": 4,
+    "failedCases": 2,
+    "suiteGreen": false
+  }
+}
