@@ -1,0 +1,10 @@
+{
+  "totalCases": 15,
+  "passedCases": 4,
+  "failedCases": 11,
+  "allSuitesGreen": false,
+  "suites": [
+    "loom-routing",
+    "tapestry-execution"
+  ]
+}
