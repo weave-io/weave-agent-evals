@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "producedAt": "2026-06-15T20:03:38.614Z",
+  "gitSha": "f5296a2a90a1210ae67dd2eb7eb183b22f775afa",
+  "records": [
+    {
+      "agentName": "loom",
+      "hash": "bb9367cb4b48edaf6f8b84a6281e54fd9c26d40f6dd349d03227cdc68a6ddf68",
+      "byteLength": 6898,
+      "charLength": 6874,
+      "sources": [
+        {
+          "kind": "builtin",
+          "layer": "primary"
+        }
+      ],
+      "summary": "Agent \"loom\": 1 source(s) [builtin primary], hash sha256:bb9367cb4b48…, 6874 chars, 6898 bytes",
+      "gitSha": "f5296a2a90a1210ae67dd2eb7eb183b22f775afa",
+      "capturedAt": "2026-06-15T20:03:38.614Z"
+    },
+    {
+      "agentName": "tapestry",
+      "hash": "061eff6161fc852e393499e47ee0ae33abb5baf74fcf1c1ce19d2a1ab767e965",
+      "byteLength": 8329,
+      "charLength": 8249,
+      "sources": [
+        {
+          "kind": "builtin",
+          "layer": "primary"
+        }
+      ],
+      "summary": "Agent \"tapestry\": 1 source(s) [builtin primary], hash sha256:061eff6161fc…, 8249 chars, 8329 bytes",
+      "gitSha": "f5296a2a90a1210ae67dd2eb7eb183b22f775afa",
+      "capturedAt": "2026-06-15T20:03:38.614Z"
+    }
+  ]
+}
