@@ -1,0 +1,18 @@
+{
+  "promptHashes": [
+    {
+      "agentName": "loom",
+      "hash": "bb9367cb4b48edaf6f8b84a6281e54fd9c26d40f6dd349d03227cdc68a6ddf68",
+      "byteLength": 6898,
+      "charLength": 6874,
+      "summary": "Agent \"loom\": 1 source(s) [builtin primary], hash sha256:bb9367cb4b48…, 6874 chars, 6898 bytes"
+    },
+    {
+      "agentName": "tapestry",
+      "hash": "061eff6161fc852e393499e47ee0ae33abb5baf74fcf1c1ce19d2a1ab767e965",
+      "byteLength": 8329,
+      "charLength": 8249,
+      "summary": "Agent \"tapestry\": 1 source(s) [builtin primary], hash sha256:061eff6161fc…, 8249 chars, 8329 bytes"
+    }
+  ]
+}
