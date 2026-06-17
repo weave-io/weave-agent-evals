@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-06-17T07:18:46.378Z",
+  "totalRuns": 1,
+  "runs": [
+    {
+      "runId": "8f957c9-2026-06-17-001",
+      "assembledAt": "2026-06-17T07:18:46.370Z",
+      "gitSha": "8f957c949ba046c0369b4d34f11acdb245b899b7",
+      "dryRun": false,
+      "allSuitesGreen": false,
+      "totalCases": 15,
+      "passedCases": 6,
+      "failedCases": 9,
+      "suites": [
+        "loom-routing",
+        "tapestry-execution"
+      ],
+      "bundleReportPath": "runs/v1/8f957c9-2026-06-17-001/public-report.json"
+    }
+  ]
+}
