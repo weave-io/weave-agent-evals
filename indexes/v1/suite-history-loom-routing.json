@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "suite": "loom-routing",
+  "updatedAt": "2026-06-17T07:18:46.378Z",
+  "history": [
+    {
+      "assembledAt": "2026-06-17T07:18:46.370Z",
+      "gitSha": "8f957c949ba046c0369b4d34f11acdb245b899b7",
+      "runId": "8f957c9-2026-06-17-001",
+      "totalCases": 9,
+      "passedCases": 1,
+      "suiteGreen": false,
+      "passRate": 0.1111111111111111
+    }
+  ]
+}
