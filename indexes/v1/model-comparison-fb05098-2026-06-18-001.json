@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "runId": "fb05098-2026-06-18-001",
+  "assembledAt": "2026-06-18T12:38:41.182Z",
+  "gitSha": "fb05098d5da6885e0776dc7b9fc10d6cc729fab3",
+  "dryRun": false,
+  "models": [
+    {
+      "modelId": "anthropic/claude-opus-4.5",
+      "displayName": "anthropic/claude-opus-4.5",
+      "totalCases": 5,
+      "passedCases": 5,
+      "failedCases": 0,
+      "passRate": 1,
+      "perSuitePassRates": {
+        "loom-routing": 1,
+        "tapestry-execution": 1
+      },
+      "overallBucket": "pass",
+      "explanation": {
+        "text": "model bucket: pass; 5/5 passed, 0 failed",
+        "source": "score_bucket_label"
+      }
+    },
+    {
+      "modelId": "anthropic/claude-sonnet-4.5",
+      "displayName": "anthropic/claude-sonnet-4.5",
+      "totalCases": 5,
+      "passedCases": 5,
+      "failedCases": 0,
+      "passRate": 1,
+      "perSuitePassRates": {
+        "loom-routing": 1,
+        "tapestry-execution": 1
+      },
+      "overallBucket": "pass",
+      "explanation": {
+        "text": "model bucket: pass; 5/5 passed, 0 failed",
+        "source": "score_bucket_label"
+      }
+    },
+    {
+      "modelId": "openai/gpt-5.5",
+      "displayName": "openai/gpt-5.5",
+      "totalCases": 5,
+      "passedCases": 4,
+      "failedCases": 1,
+      "passRate": 0.8,
+      "perSuitePassRates": {
+        "loom-routing": 0.6666666666666666,
+        "tapestry-execution": 1
+      },
+      "overallBucket": "partial",
+      "explanation": {
+        "text": "model bucket: partial; 4/5 passed, 1 failed",
+        "source": "score_bucket_label"
+      }
+    }
+  ]
+}
