@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 1,
+  "assembledAt": "2026-06-19T15:18:29.894Z",
+  "gitSha": "8ad7fc00624fa0b7c8867d9070bcef4353f5b6fc",
+  "dryRun": false,
+  "runSummary": {
+    "totalCases": 15,
+    "passedCases": 13,
+    "failedCases": 2,
+    "allSuitesGreen": false,
+    "suites": [
+      "loom-routing",
+      "tapestry-execution"
+    ]
+  },
+  "suiteSummaries": [
+    {
+      "schemaVersion": 1,
+      "suite": "loom-routing",
+      "assembledAt": "2026-06-19T15:18:29.894Z",
+      "gitSha": "8ad7fc00624fa0b7c8867d9070bcef4353f5b6fc",
+      "totalCases": 9,
+      "passedCases": 7,
+      "failedCases": 2,
+      "suiteGreen": false,
+      "explanation": {
+        "text": "suite not green; 7/9 passed, 2 failed",
+        "source": "structured_signal"
+      },
+      "cases": [
+        {
+          "caseId": "loom-route-ambiguous-direct-shuttle",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "fail",
+          "passed": false,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case failed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-06-19T15:14:41.554Z"
+        },
+        {
+          "caseId": "loom-route-backend-api",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-06-19T15:14:48.806Z"
+        },
+        {
+          "caseId": "loom-route-frontend-ui",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-06-19T15:15:00.173Z"
+        },
+        {
+          "caseId": "loom-route-ambiguous-direct-shuttle",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-06-19T15:15:35.798Z"
+        },
+        {
+          "caseId": "loom-route-backend-api",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-06-19T15:16:00.727Z"
+        },
+        {
+          "caseId": "loom-route-frontend-ui",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-06-19T15:16:27.925Z"
+        },
+        {
+          "caseId": "loom-route-ambiguous-direct-shuttle",
+          "modelId": "openai/gpt-5.5",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-06-19T15:17:16.041Z"
+        },
+        {
+          "caseId": "loom-route-backend-api",
+          "modelId": "openai/gpt-5.5",
+          "suite": "loom-routing",
+          "scoreBucket": "fail",
+          "passed": false,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case failed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-06-19T15:17:31.481Z"
+        },
+        {
+          "caseId": "loom-route-frontend-ui",
+          "modelId": "openai/gpt-5.5",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-06-19T15:17:43.869Z"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "suite": "tapestry-execution",
+      "assembledAt": "2026-06-19T15:18:29.894Z",
+      "gitSha": "8ad7fc00624fa0b7c8867d9070bcef4353f5b6fc",
+      "totalCases": 6,
+      "passedCases": 6,
+      "failedCases": 0,
+      "suiteGreen": true,
+      "explanation": {
+        "text": "suite green; all 6 case(s) passed",
+        "source": "structured_signal"
+      },
+      "cases": [
+        {
+          "caseId": "tapestry-delegate-to-shuttle",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "tapestry-execution",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required delegation case partially passed; dimensions: delegationCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-06-19T15:15:13.380Z"
+        },
+        {
+          "caseId": "tapestry-execute-plan-step",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "tapestry-execution",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-06-19T15:15:25.683Z"
+        },
+        {
+          "caseId": "tapestry-delegate-to-shuttle",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "tapestry-execution",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required delegation case partially passed; dimensions: delegationCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-06-19T15:16:45.908Z"
+        },
+        {
+          "caseId": "tapestry-execute-plan-step",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "tapestry-execution",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-06-19T15:17:03.630Z"
+        },
+        {
+          "caseId": "tapestry-delegate-to-shuttle",
+          "modelId": "openai/gpt-5.5",
+          "suite": "tapestry-execution",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required delegation case partially passed; dimensions: delegationCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-06-19T15:18:00.705Z"
+        },
+        {
+          "caseId": "tapestry-execute-plan-step",
+          "modelId": "openai/gpt-5.5",
+          "suite": "tapestry-execution",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-06-19T15:18:23.282Z"
+        }
+      ]
+    }
+  ]
+}
