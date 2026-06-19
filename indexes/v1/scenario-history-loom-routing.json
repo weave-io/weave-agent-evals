@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "suite": "loom-routing",
+  "updatedAt": "2026-06-19T09:35:39.544Z",
+  "scenarios": [
+    {
+      "caseId": "loom-route-ambiguous-direct-shuttle",
+      "title": "loom-route-ambiguous-direct-shuttle",
+      "description": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "639422f-2026-06-19-001",
+          "assembledAt": "2026-06-19T09:35:39.536Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 3,
+          "passedModels": 3,
+          "failedModels": 0,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "loom-route-backend-api",
+      "title": "loom-route-backend-api",
+      "description": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "639422f-2026-06-19-001",
+          "assembledAt": "2026-06-19T09:35:39.536Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 3,
+          "passedModels": 3,
+          "failedModels": 0,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "loom-route-frontend-ui",
+      "title": "loom-route-frontend-ui",
+      "description": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "639422f-2026-06-19-001",
+          "assembledAt": "2026-06-19T09:35:39.536Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 3,
+          "passedModels": 2,
+          "failedModels": 1,
+          "skippedModels": 0
+        }
+      ]
+    }
+  ]
+}
