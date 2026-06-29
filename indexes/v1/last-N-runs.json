@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-19T15:18:29.988Z",
+  "updatedAt": "2026-06-29T06:34:58.276Z",
   "maxRuns": 10,
   "count": 1,
   "runs": [
     {
-      "runId": "8ad7fc0-2026-06-19-001",
-      "assembledAt": "2026-06-19T15:18:29.894Z",
+      "runId": "8ad7fc0-2026-06-29-001",
+      "assembledAt": "2026-06-29T06:34:58.165Z",
       "gitSha": "8ad7fc00624fa0b7c8867d9070bcef4353f5b6fc",
       "dryRun": false,
       "allSuitesGreen": false,
       "totalCases": 15,
-      "passedCases": 13,
-      "failedCases": 2,
+      "passedCases": 14,
+      "failedCases": 1,
       "suites": [
         "loom-routing",
         "tapestry-execution"
