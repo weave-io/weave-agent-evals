@@ -1,16 +1,21 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-29T06:34:58.276Z",
-  "runId": "8ad7fc0-2026-06-29-001",
-  "assembledAt": "2026-06-29T06:34:58.165Z",
-  "gitSha": "8ad7fc00624fa0b7c8867d9070bcef4353f5b6fc",
+  "updatedAt": "2026-06-30T07:08:57.843Z",
+  "runId": "60c3ebd-2026-06-30-001",
+  "assembledAt": "2026-06-30T07:08:57.673Z",
+  "gitSha": "60c3ebda45d49d2b413ef658d2d7cbacf57708c7",
   "dryRun": false,
   "allSuitesGreen": false,
-  "totalCases": 15,
-  "passedCases": 14,
-  "failedCases": 1,
+  "totalCases": 45,
+  "passedCases": 31,
+  "failedCases": 14,
   "suites": [
     "loom-routing",
-    "tapestry-execution"
+    "tapestry-execution",
+    "shuttle-execution",
+    "spindle-tools",
+    "pattern-planning",
+    "weft-review",
+    "warp-security"
   ]
 }
