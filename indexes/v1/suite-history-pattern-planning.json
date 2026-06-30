@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "suite": "pattern-planning",
+  "updatedAt": "2026-06-30T07:08:57.843Z",
+  "history": [
+    {
+      "assembledAt": "2026-06-30T07:08:57.673Z",
+      "gitSha": "60c3ebda45d49d2b413ef658d2d7cbacf57708c7",
+      "runId": "60c3ebd-2026-06-30-001",
+      "totalCases": 6,
+      "passedCases": 4,
+      "suiteGreen": false,
+      "passRate": 0.6666666666666666
+    }
+  ]
+}
