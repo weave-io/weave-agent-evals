@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "suite": "spindle-tools",
+  "updatedAt": "2026-06-30T07:08:57.843Z",
+  "scenarios": [
+    {
+      "caseId": "spindle-tools-citations-facts-confidence",
+      "title": "spindle-tools-citations-facts-confidence",
+      "description": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "60c3ebd-2026-06-30-001",
+          "assembledAt": "2026-06-30T07:08:57.673Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 3,
+          "passedModels": 1,
+          "failedModels": 2,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "spindle-tools-source-boundary-network-claims",
+      "title": "spindle-tools-source-boundary-network-claims",
+      "description": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "60c3ebd-2026-06-30-001",
+          "assembledAt": "2026-06-30T07:08:57.673Z",
+          "status": "fail",
+          "passed": false,
+          "totalModels": 3,
+          "passedModels": 0,
+          "failedModels": 3,
+          "skippedModels": 0
+        }
+      ]
+    }
+  ]
+}
