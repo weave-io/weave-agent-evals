@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "suite": "shuttle-execution",
+  "updatedAt": "2026-06-30T07:08:57.843Z",
+  "scenarios": [
+    {
+      "caseId": "shuttle-execution-report-structured-evidence",
+      "title": "shuttle-execution-report-structured-evidence",
+      "description": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "60c3ebd-2026-06-30-001",
+          "assembledAt": "2026-06-30T07:08:57.673Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 3,
+          "passedModels": 2,
+          "failedModels": 1,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "shuttle-execution-report-tests-and-assumptions",
+      "title": "shuttle-execution-report-tests-and-assumptions",
+      "description": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "60c3ebd-2026-06-30-001",
+          "assembledAt": "2026-06-30T07:08:57.673Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 3,
+          "passedModels": 1,
+          "failedModels": 2,
+          "skippedModels": 0
+        }
+      ]
+    }
+  ]
+}
