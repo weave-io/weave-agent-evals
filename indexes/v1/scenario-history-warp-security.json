@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "suite": "warp-security",
+  "updatedAt": "2026-06-30T07:08:57.843Z",
+  "scenarios": [
+    {
+      "caseId": "warp-security-block-evidence-findings",
+      "title": "warp-security-block-evidence-findings",
+      "description": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "60c3ebd-2026-06-30-001",
+          "assembledAt": "2026-06-30T07:08:57.673Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 3,
+          "passedModels": 3,
+          "failedModels": 0,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "warp-security-fast-exit-approve",
+      "title": "warp-security-fast-exit-approve",
+      "description": "required execution case failed; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "60c3ebd-2026-06-30-001",
+          "assembledAt": "2026-06-30T07:08:57.673Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 3,
+          "passedModels": 2,
+          "failedModels": 1,
+          "skippedModels": 0
+        }
+      ]
+    }
+  ]
+}
