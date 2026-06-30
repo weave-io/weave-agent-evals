@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "suite": "weft-review",
+  "updatedAt": "2026-06-30T07:08:57.843Z",
+  "scenarios": [
+    {
+      "caseId": "weft-review-clean-approval",
+      "title": "weft-review-clean-approval",
+      "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "60c3ebd-2026-06-30-001",
+          "assembledAt": "2026-06-30T07:08:57.673Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 3,
+          "passedModels": 3,
+          "failedModels": 0,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "weft-review-reject-blocker-citation",
+      "title": "weft-review-reject-blocker-citation",
+      "description": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "60c3ebd-2026-06-30-001",
+          "assembledAt": "2026-06-30T07:08:57.673Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 3,
+          "passedModels": 1,
+          "failedModels": 2,
+          "skippedModels": 0
+        }
+      ]
+    }
+  ]
+}
