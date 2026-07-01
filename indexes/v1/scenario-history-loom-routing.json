@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "suite": "loom-routing",
-  "updatedAt": "2026-06-30T07:08:57.843Z",
+  "updatedAt": "2026-07-01T05:47:51.506Z",
   "scenarios": [
     {
       "caseId": "loom-route-ambiguous-direct-shuttle",
@@ -9,8 +9,8 @@
       "description": "required routing case failed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "60c3ebd-2026-06-30-001",
-          "assembledAt": "2026-06-30T07:08:57.673Z",
+          "runId": "40c1cee-2026-07-01-001",
+          "assembledAt": "2026-07-01T05:47:51.278Z",
           "status": "partial",
           "passed": false,
           "totalModels": 3,
@@ -23,16 +23,16 @@
     {
       "caseId": "loom-route-backend-api",
       "title": "loom-route-backend-api",
-      "description": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+      "description": "required routing case failed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "60c3ebd-2026-06-30-001",
-          "assembledAt": "2026-06-30T07:08:57.673Z",
-          "status": "pass",
-          "passed": true,
+          "runId": "40c1cee-2026-07-01-001",
+          "assembledAt": "2026-07-01T05:47:51.278Z",
+          "status": "partial",
+          "passed": false,
           "totalModels": 3,
-          "passedModels": 3,
-          "failedModels": 0,
+          "passedModels": 1,
+          "failedModels": 2,
           "skippedModels": 0
         }
       ]
@@ -43,13 +43,13 @@
       "description": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "60c3ebd-2026-06-30-001",
-          "assembledAt": "2026-06-30T07:08:57.673Z",
-          "status": "pass",
-          "passed": true,
+          "runId": "40c1cee-2026-07-01-001",
+          "assembledAt": "2026-07-01T05:47:51.278Z",
+          "status": "partial",
+          "passed": false,
           "totalModels": 3,
-          "passedModels": 3,
-          "failedModels": 0,
+          "passedModels": 2,
+          "failedModels": 1,
           "skippedModels": 0
         }
       ]
