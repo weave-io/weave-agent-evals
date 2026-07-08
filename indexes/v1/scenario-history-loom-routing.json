@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "suite": "loom-routing",
-  "updatedAt": "2026-07-01T05:47:51.506Z",
+  "updatedAt": "2026-07-08T13:24:49.252Z",
   "scenarios": [
     {
       "caseId": "loom-route-ambiguous-direct-shuttle",
@@ -9,25 +9,8 @@
       "description": "required routing case failed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "40c1cee-2026-07-01-001",
-          "assembledAt": "2026-07-01T05:47:51.278Z",
-          "status": "partial",
-          "passed": false,
-          "totalModels": 3,
-          "passedModels": 2,
-          "failedModels": 1,
-          "skippedModels": 0
-        }
-      ]
-    },
-    {
-      "caseId": "loom-route-backend-api",
-      "title": "loom-route-backend-api",
-      "description": "required routing case failed; dimensions: routingCorrectness, rationaleQuality",
-      "lastRuns": [
-        {
-          "runId": "40c1cee-2026-07-01-001",
-          "assembledAt": "2026-07-01T05:47:51.278Z",
+          "runId": "0a4e4e6-2026-07-08-001",
+          "assembledAt": "2026-07-08T13:24:49.061Z",
           "status": "partial",
           "passed": false,
           "totalModels": 3,
@@ -38,18 +21,35 @@
       ]
     },
     {
+      "caseId": "loom-route-backend-api",
+      "title": "loom-route-backend-api",
+      "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "0a4e4e6-2026-07-08-001",
+          "assembledAt": "2026-07-08T13:24:49.061Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 3,
+          "passedModels": 3,
+          "failedModels": 0,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
       "caseId": "loom-route-frontend-ui",
       "title": "loom-route-frontend-ui",
       "description": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "40c1cee-2026-07-01-001",
-          "assembledAt": "2026-07-01T05:47:51.278Z",
-          "status": "partial",
-          "passed": false,
+          "runId": "0a4e4e6-2026-07-08-001",
+          "assembledAt": "2026-07-08T13:24:49.061Z",
+          "status": "pass",
+          "passed": true,
           "totalModels": 3,
-          "passedModels": 2,
-          "failedModels": 1,
+          "passedModels": 3,
+          "failedModels": 0,
           "skippedModels": 0
         }
       ]
