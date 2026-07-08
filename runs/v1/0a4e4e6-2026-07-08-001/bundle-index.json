@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "assembledAt": "2026-07-08T13:24:49.061Z",
+  "gitSha": "0a4e4e65471fc4c0798580a9ef553b420d001b26",
+  "dryRun": false,
+  "runId": "0a4e4e6-2026-07-08-001",
+  "runSummary": {
+    "totalCases": 45,
+    "passedCases": 36,
+    "failedCases": 9,
+    "allSuitesGreen": false,
+    "suites": [
+      "loom-routing",
+      "tapestry-execution",
+      "shuttle-execution",
+      "spindle-tools",
+      "pattern-planning",
+      "weft-review",
+      "warp-security"
+    ]
+  },
+  "publicFiles": [
+    "bundle-index.json",
+    "public-report.json",
+    "public-report.md"
+  ]
+}
