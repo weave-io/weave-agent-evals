@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "suite": "tapestry-category-routing",
+  "updatedAt": "2026-07-14T18:46:25.031Z",
+  "history": [
+    {
+      "assembledAt": "2026-07-14T18:46:24.851Z",
+      "gitSha": "07481c040c8999b4ecaca72be83332a1ee19f7c2",
+      "runId": "07481c0-2026-07-14-001",
+      "totalCases": 30,
+      "passedCases": 0,
+      "suiteGreen": false,
+      "passRate": 0
+    }
+  ]
+}
