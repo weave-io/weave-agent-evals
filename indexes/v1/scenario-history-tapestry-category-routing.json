@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "suite": "tapestry-category-routing",
+  "updatedAt": "2026-07-14T18:46:25.031Z",
+  "scenarios": [
+    {
+      "caseId": "tcr-01-exact-match",
+      "title": "tcr-01-exact-match",
+      "lastRuns": [
+        {
+          "runId": "07481c0-2026-07-14-001",
+          "assembledAt": "2026-07-14T18:46:24.851Z",
+          "status": "fail",
+          "passed": false,
+          "totalModels": 3,
+          "passedModels": 0,
+          "failedModels": 3,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "tcr-02-multiple-files",
+      "title": "tcr-02-multiple-files",
+      "lastRuns": [
+        {
+          "runId": "07481c0-2026-07-14-001",
+          "assembledAt": "2026-07-14T18:46:24.851Z",
+          "status": "fail",
+          "passed": false,
+          "totalModels": 3,
+          "passedModels": 0,
+          "failedModels": 3,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "tcr-03-windows-paths",
+      "title": "tcr-03-windows-paths",
+      "lastRuns": [
+        {
+          "runId": "07481c0-2026-07-14-001",
+          "assembledAt": "2026-07-14T18:46:24.851Z",
+          "status": "fail",
+          "passed": false,
+          "totalModels": 3,
+          "passedModels": 0,
+          "failedModels": 3,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "tcr-04-no-match",
+      "title": "tcr-04-no-match",
+      "lastRuns": [
+        {
+          "runId": "07481c0-2026-07-14-001",
+          "assembledAt": "2026-07-14T18:46:24.851Z",
+          "status": "fail",
+          "passed": false,
+          "totalModels": 3,
+          "passedModels": 0,
+          "failedModels": 3,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "tcr-05-cross-category",
+      "title": "tcr-05-cross-category",
+      "lastRuns": [
+        {
+          "runId": "07481c0-2026-07-14-001",
+          "assembledAt": "2026-07-14T18:46:24.851Z",
+          "status": "fail",
+          "passed": false,
+          "totalModels": 3,
+          "passedModels": 0,
+          "failedModels": 3,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "tcr-06-overlap",
+      "title": "tcr-06-overlap",
+      "lastRuns": [
+        {
+          "runId": "07481c0-2026-07-14-001",
+          "assembledAt": "2026-07-14T18:46:24.851Z",
+          "status": "fail",
+          "passed": false,
+          "totalModels": 3,
+          "passedModels": 0,
+          "failedModels": 3,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "tcr-07-explicit-hint",
+      "title": "tcr-07-explicit-hint",
+      "lastRuns": [
+        {
+          "runId": "07481c0-2026-07-14-001",
+          "assembledAt": "2026-07-14T18:46:24.851Z",
+          "status": "fail",
+          "passed": false,
+          "totalModels": 3,
+          "passedModels": 0,
+          "failedModels": 3,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "tcr-08-misleading-prose",
+      "title": "tcr-08-misleading-prose",
+      "lastRuns": [
+        {
+          "runId": "07481c0-2026-07-14-001",
+          "assembledAt": "2026-07-14T18:46:24.851Z",
+          "status": "fail",
+          "passed": false,
+          "totalModels": 3,
+          "passedModels": 0,
+          "failedModels": 3,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "tcr-09-similar-names",
+      "title": "tcr-09-similar-names",
+      "lastRuns": [
+        {
+          "runId": "07481c0-2026-07-14-001",
+          "assembledAt": "2026-07-14T18:46:24.851Z",
+          "status": "fail",
+          "passed": false,
+          "totalModels": 3,
+          "passedModels": 0,
+          "failedModels": 3,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "tcr-10-disabled-category",
+      "title": "tcr-10-disabled-category",
+      "lastRuns": [
+        {
+          "runId": "07481c0-2026-07-14-001",
+          "assembledAt": "2026-07-14T18:46:24.851Z",
+          "status": "fail",
+          "passed": false,
+          "totalModels": 3,
+          "passedModels": 0,
+          "failedModels": 3,
+          "skippedModels": 0
+        }
+      ]
+    }
+  ]
+}
