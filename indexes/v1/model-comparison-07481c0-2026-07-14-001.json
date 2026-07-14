@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "runId": "07481c0-2026-07-14-001",
+  "assembledAt": "2026-07-14T18:46:24.851Z",
+  "gitSha": "07481c040c8999b4ecaca72be83332a1ee19f7c2",
+  "dryRun": false,
+  "models": [
+    {
+      "modelId": "anthropic/claude-opus-4.5",
+      "displayName": "anthropic/claude-opus-4.5",
+      "totalCases": 25,
+      "passedCases": 12,
+      "failedCases": 13,
+      "passRate": 0.48,
+      "perSuitePassRates": {
+        "loom-routing": 0.6666666666666666,
+        "tapestry-execution": 1,
+        "shuttle-execution": 1,
+        "spindle-tools": 1,
+        "pattern-planning": 0.5,
+        "weft-review": 1,
+        "warp-security": 0.5,
+        "tapestry-category-routing": 0
+      },
+      "overallBucket": "fail",
+      "explanation": {
+        "text": "model bucket: fail; 12/25 passed, 13 failed",
+        "source": "score_bucket_label"
+      }
+    },
+    {
+      "modelId": "anthropic/claude-sonnet-4.5",
+      "displayName": "anthropic/claude-sonnet-4.5",
+      "totalCases": 25,
+      "passedCases": 10,
+      "failedCases": 15,
+      "passRate": 0.4,
+      "perSuitePassRates": {
+        "loom-routing": 0.6666666666666666,
+        "tapestry-execution": 1,
+        "shuttle-execution": 1,
+        "spindle-tools": 0,
+        "pattern-planning": 1,
+        "weft-review": 0,
+        "warp-security": 1,
+        "tapestry-category-routing": 0
+      },
+      "overallBucket": "fail",
+      "explanation": {
+        "text": "model bucket: fail; 10/25 passed, 15 failed",
+        "source": "score_bucket_label"
+      }
+    },
+    {
+      "modelId": "openai/gpt-5.5",
+      "displayName": "openai/gpt-5.5",
+      "totalCases": 25,
+      "passedCases": 12,
+      "failedCases": 13,
+      "passRate": 0.48,
+      "perSuitePassRates": {
+        "loom-routing": 1,
+        "tapestry-execution": 1,
+        "shuttle-execution": 0.5,
+        "spindle-tools": 1,
+        "pattern-planning": 0,
+        "weft-review": 1,
+        "warp-security": 1,
+        "tapestry-category-routing": 0
+      },
+      "overallBucket": "fail",
+      "explanation": {
+        "text": "model bucket: fail; 12/25 passed, 13 failed",
+        "source": "score_bucket_label"
+      }
+    }
+  ]
+}
