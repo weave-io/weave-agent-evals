@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "suite": "tapestry-category-routing",
-  "updatedAt": "2026-07-14T18:46:25.031Z",
+  "updatedAt": "2026-08-31T17:40:30.765Z",
   "scenarios": [
     {
       "caseId": "tcr-01-exact-match",
       "title": "tcr-01-exact-match",
       "lastRuns": [
         {
-          "runId": "07481c0-2026-07-14-001",
-          "assembledAt": "2026-07-14T18:46:24.851Z",
+          "runId": "e2f642e-2026-08-31-001",
+          "assembledAt": "2026-08-31T17:40:30.491Z",
           "status": "fail",
           "passed": false,
           "totalModels": 3,
@@ -24,8 +24,8 @@
       "title": "tcr-02-multiple-files",
       "lastRuns": [
         {
-          "runId": "07481c0-2026-07-14-001",
-          "assembledAt": "2026-07-14T18:46:24.851Z",
+          "runId": "e2f642e-2026-08-31-001",
+          "assembledAt": "2026-08-31T17:40:30.491Z",
           "status": "fail",
           "passed": false,
           "totalModels": 3,
@@ -40,8 +40,8 @@
       "title": "tcr-03-windows-paths",
       "lastRuns": [
         {
-          "runId": "07481c0-2026-07-14-001",
-          "assembledAt": "2026-07-14T18:46:24.851Z",
+          "runId": "e2f642e-2026-08-31-001",
+          "assembledAt": "2026-08-31T17:40:30.491Z",
           "status": "fail",
           "passed": false,
           "totalModels": 3,
@@ -56,8 +56,8 @@
       "title": "tcr-04-no-match",
       "lastRuns": [
         {
-          "runId": "07481c0-2026-07-14-001",
-          "assembledAt": "2026-07-14T18:46:24.851Z",
+          "runId": "e2f642e-2026-08-31-001",
+          "assembledAt": "2026-08-31T17:40:30.491Z",
           "status": "fail",
           "passed": false,
           "totalModels": 3,
@@ -72,8 +72,8 @@
       "title": "tcr-05-cross-category",
       "lastRuns": [
         {
-          "runId": "07481c0-2026-07-14-001",
-          "assembledAt": "2026-07-14T18:46:24.851Z",
+          "runId": "e2f642e-2026-08-31-001",
+          "assembledAt": "2026-08-31T17:40:30.491Z",
           "status": "fail",
           "passed": false,
           "totalModels": 3,
@@ -88,8 +88,8 @@
       "title": "tcr-06-overlap",
       "lastRuns": [
         {
-          "runId": "07481c0-2026-07-14-001",
-          "assembledAt": "2026-07-14T18:46:24.851Z",
+          "runId": "e2f642e-2026-08-31-001",
+          "assembledAt": "2026-08-31T17:40:30.491Z",
           "status": "fail",
           "passed": false,
           "totalModels": 3,
@@ -104,8 +104,8 @@
       "title": "tcr-07-explicit-hint",
       "lastRuns": [
         {
-          "runId": "07481c0-2026-07-14-001",
-          "assembledAt": "2026-07-14T18:46:24.851Z",
+          "runId": "e2f642e-2026-08-31-001",
+          "assembledAt": "2026-08-31T17:40:30.491Z",
           "status": "fail",
           "passed": false,
           "totalModels": 3,
@@ -120,8 +120,8 @@
       "title": "tcr-08-misleading-prose",
       "lastRuns": [
         {
-          "runId": "07481c0-2026-07-14-001",
-          "assembledAt": "2026-07-14T18:46:24.851Z",
+          "runId": "e2f642e-2026-08-31-001",
+          "assembledAt": "2026-08-31T17:40:30.491Z",
           "status": "fail",
           "passed": false,
           "totalModels": 3,
@@ -136,8 +136,8 @@
       "title": "tcr-09-similar-names",
       "lastRuns": [
         {
-          "runId": "07481c0-2026-07-14-001",
-          "assembledAt": "2026-07-14T18:46:24.851Z",
+          "runId": "e2f642e-2026-08-31-001",
+          "assembledAt": "2026-08-31T17:40:30.491Z",
           "status": "fail",
           "passed": false,
           "totalModels": 3,
@@ -152,8 +152,8 @@
       "title": "tcr-10-disabled-category",
       "lastRuns": [
         {
-          "runId": "07481c0-2026-07-14-001",
-          "assembledAt": "2026-07-14T18:46:24.851Z",
+          "runId": "e2f642e-2026-08-31-001",
+          "assembledAt": "2026-08-31T17:40:30.491Z",
           "status": "fail",
           "passed": false,
           "totalModels": 3,
