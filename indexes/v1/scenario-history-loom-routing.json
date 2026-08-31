@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "suite": "loom-routing",
-  "updatedAt": "2026-07-14T18:46:25.031Z",
+  "updatedAt": "2026-08-31T17:40:30.765Z",
   "scenarios": [
     {
       "caseId": "loom-route-ambiguous-direct-shuttle",
       "title": "loom-route-ambiguous-direct-shuttle",
-      "description": "required routing case failed; dimensions: routingCorrectness, rationaleQuality",
+      "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "07481c0-2026-07-14-001",
-          "assembledAt": "2026-07-14T18:46:24.851Z",
-          "status": "partial",
-          "passed": false,
+          "runId": "e2f642e-2026-08-31-001",
+          "assembledAt": "2026-08-31T17:40:30.491Z",
+          "status": "pass",
+          "passed": true,
           "totalModels": 3,
-          "passedModels": 2,
-          "failedModels": 1,
+          "passedModels": 3,
+          "failedModels": 0,
           "skippedModels": 0
         }
       ]
@@ -26,8 +26,8 @@
       "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "07481c0-2026-07-14-001",
-          "assembledAt": "2026-07-14T18:46:24.851Z",
+          "runId": "e2f642e-2026-08-31-001",
+          "assembledAt": "2026-08-31T17:40:30.491Z",
           "status": "pass",
           "passed": true,
           "totalModels": 3,
@@ -40,11 +40,11 @@
     {
       "caseId": "loom-route-frontend-ui",
       "title": "loom-route-frontend-ui",
-      "description": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+      "description": "required routing case failed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "07481c0-2026-07-14-001",
-          "assembledAt": "2026-07-14T18:46:24.851Z",
+          "runId": "e2f642e-2026-08-31-001",
+          "assembledAt": "2026-08-31T17:40:30.491Z",
           "status": "partial",
           "passed": false,
           "totalModels": 3,
