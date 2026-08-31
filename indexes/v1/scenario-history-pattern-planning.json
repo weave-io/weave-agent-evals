@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
   "suite": "pattern-planning",
-  "updatedAt": "2026-07-14T18:46:25.031Z",
+  "updatedAt": "2026-08-31T17:40:30.765Z",
   "scenarios": [
     {
       "caseId": "pattern-plan-release-checklist",
       "title": "pattern-plan-release-checklist",
-      "description": "required execution case failed; dimensions: executionCompleteness, rationaleQuality",
+      "description": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "07481c0-2026-07-14-001",
-          "assembledAt": "2026-07-14T18:46:24.851Z",
+          "runId": "e2f642e-2026-08-31-001",
+          "assembledAt": "2026-08-31T17:40:30.491Z",
           "status": "partial",
           "passed": false,
           "totalModels": 3,
@@ -26,8 +26,8 @@
       "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "07481c0-2026-07-14-001",
-          "assembledAt": "2026-07-14T18:46:24.851Z",
+          "runId": "e2f642e-2026-08-31-001",
+          "assembledAt": "2026-08-31T17:40:30.491Z",
           "status": "partial",
           "passed": false,
           "totalModels": 3,
