@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "suite": "tapestry-category-routing",
-  "updatedAt": "2026-09-01T05:47:12.372Z",
+  "updatedAt": "2026-09-01T20:13:56.857Z",
   "history": [
     {
-      "assembledAt": "2026-09-01T05:47:12.123Z",
-      "gitSha": "4a40e838cdc7d90038fb0895f4eca213b901f2aa",
-      "runId": "4a40e83-2026-09-01-001",
-      "totalCases": 50,
+      "assembledAt": "2026-09-01T20:13:56.305Z",
+      "gitSha": "0eea530efb38f39c709db977ea43d9d03f9f3f1b",
+      "runId": "0eea530-2026-09-01-001",
+      "totalCases": 70,
       "passedCases": 0,
       "suiteGreen": false,
       "passRate": 0
