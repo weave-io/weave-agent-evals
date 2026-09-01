@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-01T05:47:12.372Z",
+  "updatedAt": "2026-09-01T20:13:56.857Z",
   "totalRuns": 1,
   "runs": [
     {
-      "runId": "4a40e83-2026-09-01-001",
-      "assembledAt": "2026-09-01T05:47:12.123Z",
-      "gitSha": "4a40e838cdc7d90038fb0895f4eca213b901f2aa",
+      "runId": "0eea530-2026-09-01-001",
+      "assembledAt": "2026-09-01T20:13:56.305Z",
+      "gitSha": "0eea530efb38f39c709db977ea43d9d03f9f3f1b",
       "dryRun": false,
       "allSuitesGreen": false,
-      "totalCases": 125,
-      "passedCases": 61,
-      "failedCases": 64,
+      "totalCases": 175,
+      "passedCases": 80,
+      "failedCases": 95,
       "suites": [
         "loom-routing",
         "tapestry-execution",
@@ -22,7 +22,7 @@
         "warp-security",
         "tapestry-category-routing"
       ],
-      "bundleReportPath": "runs/v1/4a40e83-2026-09-01-001/public-report.json"
+      "bundleReportPath": "runs/v1/0eea530-2026-09-01-001/public-report.json"
     }
   ]
 }
