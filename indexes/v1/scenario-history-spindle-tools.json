@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "suite": "spindle-tools",
-  "updatedAt": "2026-08-31T17:40:30.765Z",
+  "updatedAt": "2026-09-01T05:47:12.372Z",
   "scenarios": [
     {
       "caseId": "spindle-tools-citations-facts-confidence",
@@ -9,13 +9,13 @@
       "description": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "e2f642e-2026-08-31-001",
-          "assembledAt": "2026-08-31T17:40:30.491Z",
+          "runId": "4a40e83-2026-09-01-001",
+          "assembledAt": "2026-09-01T05:47:12.123Z",
           "status": "partial",
           "passed": false,
-          "totalModels": 3,
-          "passedModels": 1,
-          "failedModels": 2,
+          "totalModels": 5,
+          "passedModels": 4,
+          "failedModels": 1,
           "skippedModels": 0
         }
       ]
@@ -26,12 +26,12 @@
       "description": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "e2f642e-2026-08-31-001",
-          "assembledAt": "2026-08-31T17:40:30.491Z",
+          "runId": "4a40e83-2026-09-01-001",
+          "assembledAt": "2026-09-01T05:47:12.123Z",
           "status": "partial",
           "passed": false,
-          "totalModels": 3,
-          "passedModels": 2,
+          "totalModels": 5,
+          "passedModels": 4,
           "failedModels": 1,
           "skippedModels": 0
         }
