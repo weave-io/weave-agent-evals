@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
   "suite": "tapestry-execution",
-  "updatedAt": "2026-09-01T05:47:12.372Z",
+  "updatedAt": "2026-09-01T20:13:56.857Z",
   "scenarios": [
     {
       "caseId": "tapestry-delegate-to-shuttle",
       "title": "tapestry-delegate-to-shuttle",
-      "description": "required delegation case passed; dimensions: delegationCorrectness, rationaleQuality",
+      "description": "required delegation case partially passed; dimensions: delegationCorrectness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "4a40e83-2026-09-01-001",
-          "assembledAt": "2026-09-01T05:47:12.123Z",
+          "runId": "0eea530-2026-09-01-001",
+          "assembledAt": "2026-09-01T20:13:56.305Z",
           "status": "pass",
           "passed": true,
-          "totalModels": 5,
-          "passedModels": 5,
+          "totalModels": 7,
+          "passedModels": 7,
           "failedModels": 0,
           "skippedModels": 0
         }
@@ -26,12 +26,12 @@
       "description": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "4a40e83-2026-09-01-001",
-          "assembledAt": "2026-09-01T05:47:12.123Z",
+          "runId": "0eea530-2026-09-01-001",
+          "assembledAt": "2026-09-01T20:13:56.305Z",
           "status": "pass",
           "passed": true,
-          "totalModels": 5,
-          "passedModels": 5,
+          "totalModels": 7,
+          "passedModels": 7,
           "failedModels": 0,
           "skippedModels": 0
         }
