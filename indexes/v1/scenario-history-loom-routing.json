@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "suite": "loom-routing",
-  "updatedAt": "2026-08-31T17:40:30.765Z",
+  "updatedAt": "2026-09-01T05:47:12.372Z",
   "scenarios": [
     {
       "caseId": "loom-route-ambiguous-direct-shuttle",
       "title": "loom-route-ambiguous-direct-shuttle",
-      "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+      "description": "required routing case failed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "e2f642e-2026-08-31-001",
-          "assembledAt": "2026-08-31T17:40:30.491Z",
-          "status": "pass",
-          "passed": true,
-          "totalModels": 3,
-          "passedModels": 3,
-          "failedModels": 0,
+          "runId": "4a40e83-2026-09-01-001",
+          "assembledAt": "2026-09-01T05:47:12.123Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 5,
+          "passedModels": 4,
+          "failedModels": 1,
           "skippedModels": 0
         }
       ]
@@ -26,12 +26,12 @@
       "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "e2f642e-2026-08-31-001",
-          "assembledAt": "2026-08-31T17:40:30.491Z",
+          "runId": "4a40e83-2026-09-01-001",
+          "assembledAt": "2026-09-01T05:47:12.123Z",
           "status": "pass",
           "passed": true,
-          "totalModels": 3,
-          "passedModels": 3,
+          "totalModels": 5,
+          "passedModels": 5,
           "failedModels": 0,
           "skippedModels": 0
         }
@@ -40,16 +40,16 @@
     {
       "caseId": "loom-route-frontend-ui",
       "title": "loom-route-frontend-ui",
-      "description": "required routing case failed; dimensions: routingCorrectness, rationaleQuality",
+      "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "e2f642e-2026-08-31-001",
-          "assembledAt": "2026-08-31T17:40:30.491Z",
-          "status": "partial",
-          "passed": false,
-          "totalModels": 3,
-          "passedModels": 2,
-          "failedModels": 1,
+          "runId": "4a40e83-2026-09-01-001",
+          "assembledAt": "2026-09-01T05:47:12.123Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 5,
+          "passedModels": 5,
+          "failedModels": 0,
           "skippedModels": 0
         }
       ]
