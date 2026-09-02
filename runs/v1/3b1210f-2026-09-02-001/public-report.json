@@ -1,0 +1,3758 @@
+{
+  "schemaVersion": 1,
+  "assembledAt": "2026-09-02T20:25:02.669Z",
+  "gitSha": "3b1210f17adb2580b3e820acd6fabd3b02b68532",
+  "dryRun": false,
+  "runSummary": {
+    "totalCases": 259,
+    "passedCases": 226,
+    "failedCases": 33,
+    "allSuitesGreen": false,
+    "suites": [
+      "loom-routing",
+      "tapestry-execution",
+      "shuttle-execution",
+      "spindle-tools",
+      "pattern-planning",
+      "weft-review",
+      "warp-security",
+      "tapestry-category-routing"
+    ]
+  },
+  "suiteSummaries": [
+    {
+      "schemaVersion": 1,
+      "suite": "loom-routing",
+      "assembledAt": "2026-09-02T20:25:02.669Z",
+      "gitSha": "3b1210f17adb2580b3e820acd6fabd3b02b68532",
+      "totalCases": 105,
+      "passedCases": 103,
+      "failedCases": 2,
+      "suiteGreen": false,
+      "explanation": {
+        "text": "suite not green; 103/105 passed, 2 failed",
+        "source": "structured_signal"
+      },
+      "cases": [
+        {
+          "caseId": "loom-route-ambiguous-direct-shuttle",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "fail",
+          "passed": false,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case failed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:25:28.542Z"
+        },
+        {
+          "caseId": "loom-route-backend-api",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:25:37.621Z"
+        },
+        {
+          "caseId": "loom-route-frontend-ui",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:25:46.706Z"
+        },
+        {
+          "caseId": "loom-route-pattern-boundary-small-fix",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:25:55.027Z"
+        },
+        {
+          "caseId": "loom-route-pattern-plan-migration",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:26:05.342Z"
+        },
+        {
+          "caseId": "loom-route-shuttle-boundary-plan-first",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:26:16.082Z"
+        },
+        {
+          "caseId": "loom-route-shuttle-implement-utility",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:26:27.315Z"
+        },
+        {
+          "caseId": "loom-route-spindle-boundary-internal-exploration",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:26:35.932Z"
+        },
+        {
+          "caseId": "loom-route-spindle-research-oauth-pkce",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:26:57.237Z"
+        },
+        {
+          "caseId": "loom-route-thread-boundary-prehop-then-implement",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "fail",
+          "passed": false,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case failed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:27:05.400Z"
+        },
+        {
+          "caseId": "loom-route-thread-explore-auth-flow",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:27:13.127Z"
+        },
+        {
+          "caseId": "loom-route-warp-boundary-downstream-audit",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:27:23.961Z"
+        },
+        {
+          "caseId": "loom-route-warp-security-audit-auth-flow",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:27:35.275Z"
+        },
+        {
+          "caseId": "loom-route-weft-boundary-downstream-review",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:27:45.376Z"
+        },
+        {
+          "caseId": "loom-route-weft-review-checkout-pr",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:27:54.818Z"
+        },
+        {
+          "caseId": "loom-route-ambiguous-direct-shuttle",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:32:18.782Z"
+        },
+        {
+          "caseId": "loom-route-backend-api",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:32:28.221Z"
+        },
+        {
+          "caseId": "loom-route-frontend-ui",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:32:39.180Z"
+        },
+        {
+          "caseId": "loom-route-pattern-boundary-small-fix",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:32:48.634Z"
+        },
+        {
+          "caseId": "loom-route-pattern-plan-migration",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:33:01.058Z"
+        },
+        {
+          "caseId": "loom-route-shuttle-boundary-plan-first",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:33:11.985Z"
+        },
+        {
+          "caseId": "loom-route-shuttle-implement-utility",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:33:24.090Z"
+        },
+        {
+          "caseId": "loom-route-spindle-boundary-internal-exploration",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:33:37.902Z"
+        },
+        {
+          "caseId": "loom-route-spindle-research-oauth-pkce",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:33:49.740Z"
+        },
+        {
+          "caseId": "loom-route-thread-boundary-prehop-then-implement",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:34:00.315Z"
+        },
+        {
+          "caseId": "loom-route-thread-explore-auth-flow",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:34:13.687Z"
+        },
+        {
+          "caseId": "loom-route-warp-boundary-downstream-audit",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:34:26.907Z"
+        },
+        {
+          "caseId": "loom-route-warp-security-audit-auth-flow",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:34:37.256Z"
+        },
+        {
+          "caseId": "loom-route-weft-boundary-downstream-review",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:34:47.098Z"
+        },
+        {
+          "caseId": "loom-route-weft-review-checkout-pr",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:34:58.403Z"
+        },
+        {
+          "caseId": "loom-route-ambiguous-direct-shuttle",
+          "modelId": "openai/gpt-5.5",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:40:19.200Z"
+        },
+        {
+          "caseId": "loom-route-backend-api",
+          "modelId": "openai/gpt-5.5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:40:31.536Z"
+        },
+        {
+          "caseId": "loom-route-frontend-ui",
+          "modelId": "openai/gpt-5.5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:40:41.727Z"
+        },
+        {
+          "caseId": "loom-route-pattern-boundary-small-fix",
+          "modelId": "openai/gpt-5.5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:40:50.662Z"
+        },
+        {
+          "caseId": "loom-route-pattern-plan-migration",
+          "modelId": "openai/gpt-5.5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:40:59.991Z"
+        },
+        {
+          "caseId": "loom-route-shuttle-boundary-plan-first",
+          "modelId": "openai/gpt-5.5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:41:10.027Z"
+        },
+        {
+          "caseId": "loom-route-shuttle-implement-utility",
+          "modelId": "openai/gpt-5.5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:41:20.484Z"
+        },
+        {
+          "caseId": "loom-route-spindle-boundary-internal-exploration",
+          "modelId": "openai/gpt-5.5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:41:29.280Z"
+        },
+        {
+          "caseId": "loom-route-spindle-research-oauth-pkce",
+          "modelId": "openai/gpt-5.5",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:41:41.105Z"
+        },
+        {
+          "caseId": "loom-route-thread-boundary-prehop-then-implement",
+          "modelId": "openai/gpt-5.5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:41:52.957Z"
+        },
+        {
+          "caseId": "loom-route-thread-explore-auth-flow",
+          "modelId": "openai/gpt-5.5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:42:05.511Z"
+        },
+        {
+          "caseId": "loom-route-warp-boundary-downstream-audit",
+          "modelId": "openai/gpt-5.5",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:42:16.840Z"
+        },
+        {
+          "caseId": "loom-route-warp-security-audit-auth-flow",
+          "modelId": "openai/gpt-5.5",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:42:27.233Z"
+        },
+        {
+          "caseId": "loom-route-weft-boundary-downstream-review",
+          "modelId": "openai/gpt-5.5",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:42:42.228Z"
+        },
+        {
+          "caseId": "loom-route-weft-review-checkout-pr",
+          "modelId": "openai/gpt-5.5",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:42:51.825Z"
+        },
+        {
+          "caseId": "loom-route-ambiguous-direct-shuttle",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:46:32.166Z"
+        },
+        {
+          "caseId": "loom-route-backend-api",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:46:45.405Z"
+        },
+        {
+          "caseId": "loom-route-frontend-ui",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:46:58.792Z"
+        },
+        {
+          "caseId": "loom-route-pattern-boundary-small-fix",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:47:11.680Z"
+        },
+        {
+          "caseId": "loom-route-pattern-plan-migration",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:47:25.687Z"
+        },
+        {
+          "caseId": "loom-route-shuttle-boundary-plan-first",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:47:40.046Z"
+        },
+        {
+          "caseId": "loom-route-shuttle-implement-utility",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:47:57.805Z"
+        },
+        {
+          "caseId": "loom-route-spindle-boundary-internal-exploration",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:48:13.514Z"
+        },
+        {
+          "caseId": "loom-route-spindle-research-oauth-pkce",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:48:31.530Z"
+        },
+        {
+          "caseId": "loom-route-thread-boundary-prehop-then-implement",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:48:44.972Z"
+        },
+        {
+          "caseId": "loom-route-thread-explore-auth-flow",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:49:00.805Z"
+        },
+        {
+          "caseId": "loom-route-warp-boundary-downstream-audit",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:49:16.174Z"
+        },
+        {
+          "caseId": "loom-route-warp-security-audit-auth-flow",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:49:28.067Z"
+        },
+        {
+          "caseId": "loom-route-weft-boundary-downstream-review",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:49:39.601Z"
+        },
+        {
+          "caseId": "loom-route-weft-review-checkout-pr",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:49:49.092Z"
+        },
+        {
+          "caseId": "loom-route-ambiguous-direct-shuttle",
+          "modelId": "openai/gpt-5.6-sol",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:56:31.986Z"
+        },
+        {
+          "caseId": "loom-route-backend-api",
+          "modelId": "openai/gpt-5.6-sol",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:56:40.353Z"
+        },
+        {
+          "caseId": "loom-route-frontend-ui",
+          "modelId": "openai/gpt-5.6-sol",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:56:48.390Z"
+        },
+        {
+          "caseId": "loom-route-pattern-boundary-small-fix",
+          "modelId": "openai/gpt-5.6-sol",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:56:55.203Z"
+        },
+        {
+          "caseId": "loom-route-pattern-plan-migration",
+          "modelId": "openai/gpt-5.6-sol",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:57:03.383Z"
+        },
+        {
+          "caseId": "loom-route-shuttle-boundary-plan-first",
+          "modelId": "openai/gpt-5.6-sol",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:57:12.637Z"
+        },
+        {
+          "caseId": "loom-route-shuttle-implement-utility",
+          "modelId": "openai/gpt-5.6-sol",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:57:20.946Z"
+        },
+        {
+          "caseId": "loom-route-spindle-boundary-internal-exploration",
+          "modelId": "openai/gpt-5.6-sol",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:57:30.027Z"
+        },
+        {
+          "caseId": "loom-route-spindle-research-oauth-pkce",
+          "modelId": "openai/gpt-5.6-sol",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:57:38.606Z"
+        },
+        {
+          "caseId": "loom-route-thread-boundary-prehop-then-implement",
+          "modelId": "openai/gpt-5.6-sol",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:57:47.660Z"
+        },
+        {
+          "caseId": "loom-route-thread-explore-auth-flow",
+          "modelId": "openai/gpt-5.6-sol",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:57:56.944Z"
+        },
+        {
+          "caseId": "loom-route-warp-boundary-downstream-audit",
+          "modelId": "openai/gpt-5.6-sol",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:58:06.221Z"
+        },
+        {
+          "caseId": "loom-route-warp-security-audit-auth-flow",
+          "modelId": "openai/gpt-5.6-sol",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:58:15.509Z"
+        },
+        {
+          "caseId": "loom-route-weft-boundary-downstream-review",
+          "modelId": "openai/gpt-5.6-sol",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:58:23.209Z"
+        },
+        {
+          "caseId": "loom-route-weft-review-checkout-pr",
+          "modelId": "openai/gpt-5.6-sol",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:58:29.542Z"
+        },
+        {
+          "caseId": "loom-route-ambiguous-direct-shuttle",
+          "modelId": "qwen/qwen3.8-max",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:01:18.867Z"
+        },
+        {
+          "caseId": "loom-route-backend-api",
+          "modelId": "qwen/qwen3.8-max",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:01:44.188Z"
+        },
+        {
+          "caseId": "loom-route-frontend-ui",
+          "modelId": "qwen/qwen3.8-max",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:02:01.189Z"
+        },
+        {
+          "caseId": "loom-route-pattern-boundary-small-fix",
+          "modelId": "qwen/qwen3.8-max",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:02:22.262Z"
+        },
+        {
+          "caseId": "loom-route-pattern-plan-migration",
+          "modelId": "qwen/qwen3.8-max",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:02:37.796Z"
+        },
+        {
+          "caseId": "loom-route-shuttle-boundary-plan-first",
+          "modelId": "qwen/qwen3.8-max",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:02:56.846Z"
+        },
+        {
+          "caseId": "loom-route-shuttle-implement-utility",
+          "modelId": "qwen/qwen3.8-max",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:03:17.190Z"
+        },
+        {
+          "caseId": "loom-route-spindle-boundary-internal-exploration",
+          "modelId": "qwen/qwen3.8-max",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:03:29.279Z"
+        },
+        {
+          "caseId": "loom-route-spindle-research-oauth-pkce",
+          "modelId": "qwen/qwen3.8-max",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:04:10.747Z"
+        },
+        {
+          "caseId": "loom-route-thread-boundary-prehop-then-implement",
+          "modelId": "qwen/qwen3.8-max",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:04:33.799Z"
+        },
+        {
+          "caseId": "loom-route-thread-explore-auth-flow",
+          "modelId": "qwen/qwen3.8-max",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:04:58.415Z"
+        },
+        {
+          "caseId": "loom-route-warp-boundary-downstream-audit",
+          "modelId": "qwen/qwen3.8-max",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:05:33.121Z"
+        },
+        {
+          "caseId": "loom-route-warp-security-audit-auth-flow",
+          "modelId": "qwen/qwen3.8-max",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:05:49.573Z"
+        },
+        {
+          "caseId": "loom-route-weft-boundary-downstream-review",
+          "modelId": "qwen/qwen3.8-max",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:06:34.483Z"
+        },
+        {
+          "caseId": "loom-route-weft-review-checkout-pr",
+          "modelId": "qwen/qwen3.8-max",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:06:58.115Z"
+        },
+        {
+          "caseId": "loom-route-ambiguous-direct-shuttle",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:17:08.094Z"
+        },
+        {
+          "caseId": "loom-route-backend-api",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:17:15.456Z"
+        },
+        {
+          "caseId": "loom-route-frontend-ui",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:17:44.446Z"
+        },
+        {
+          "caseId": "loom-route-pattern-boundary-small-fix",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:18:05.622Z"
+        },
+        {
+          "caseId": "loom-route-pattern-plan-migration",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:18:41.654Z"
+        },
+        {
+          "caseId": "loom-route-shuttle-boundary-plan-first",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:18:50.159Z"
+        },
+        {
+          "caseId": "loom-route-shuttle-implement-utility",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:19:02.624Z"
+        },
+        {
+          "caseId": "loom-route-spindle-boundary-internal-exploration",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:19:11.265Z"
+        },
+        {
+          "caseId": "loom-route-spindle-research-oauth-pkce",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:19:22.015Z"
+        },
+        {
+          "caseId": "loom-route-thread-boundary-prehop-then-implement",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:19:38.663Z"
+        },
+        {
+          "caseId": "loom-route-thread-explore-auth-flow",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:19:51.984Z"
+        },
+        {
+          "caseId": "loom-route-warp-boundary-downstream-audit",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:20:03.184Z"
+        },
+        {
+          "caseId": "loom-route-warp-security-audit-auth-flow",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:20:13.256Z"
+        },
+        {
+          "caseId": "loom-route-weft-boundary-downstream-review",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:20:23.371Z"
+        },
+        {
+          "caseId": "loom-route-weft-review-checkout-pr",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "loom-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:20:32.248Z"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "suite": "tapestry-execution",
+      "assembledAt": "2026-09-02T20:25:02.669Z",
+      "gitSha": "3b1210f17adb2580b3e820acd6fabd3b02b68532",
+      "totalCases": 14,
+      "passedCases": 13,
+      "failedCases": 1,
+      "suiteGreen": false,
+      "explanation": {
+        "text": "suite not green; 13/14 passed, 1 failed",
+        "source": "structured_signal"
+      },
+      "cases": [
+        {
+          "caseId": "tapestry-delegate-to-shuttle",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "tapestry-execution",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required delegation case partially passed; dimensions: delegationCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:28:07.072Z"
+        },
+        {
+          "caseId": "tapestry-execute-plan-step",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "tapestry-execution",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:28:20.898Z"
+        },
+        {
+          "caseId": "tapestry-delegate-to-shuttle",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "tapestry-execution",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required delegation case partially passed; dimensions: delegationCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:35:15.402Z"
+        },
+        {
+          "caseId": "tapestry-execute-plan-step",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "tapestry-execution",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:35:34.639Z"
+        },
+        {
+          "caseId": "tapestry-delegate-to-shuttle",
+          "modelId": "openai/gpt-5.5",
+          "suite": "tapestry-execution",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required delegation case passed; dimensions: delegationCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:43:03.624Z"
+        },
+        {
+          "caseId": "tapestry-execute-plan-step",
+          "modelId": "openai/gpt-5.5",
+          "suite": "tapestry-execution",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:43:13.449Z"
+        },
+        {
+          "caseId": "tapestry-delegate-to-shuttle",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "tapestry-execution",
+          "scoreBucket": "fail",
+          "passed": false,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required delegation case failed; dimensions: delegationCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:50:04.290Z"
+        },
+        {
+          "caseId": "tapestry-execute-plan-step",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "tapestry-execution",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:50:22.280Z"
+        },
+        {
+          "caseId": "tapestry-delegate-to-shuttle",
+          "modelId": "openai/gpt-5.6-sol",
+          "suite": "tapestry-execution",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required delegation case passed; dimensions: delegationCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:58:40.928Z"
+        },
+        {
+          "caseId": "tapestry-execute-plan-step",
+          "modelId": "openai/gpt-5.6-sol",
+          "suite": "tapestry-execution",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:58:50.504Z"
+        },
+        {
+          "caseId": "tapestry-delegate-to-shuttle",
+          "modelId": "qwen/qwen3.8-max",
+          "suite": "tapestry-execution",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required delegation case passed; dimensions: delegationCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:07:33.898Z"
+        },
+        {
+          "caseId": "tapestry-execute-plan-step",
+          "modelId": "qwen/qwen3.8-max",
+          "suite": "tapestry-execution",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:07:51.676Z"
+        },
+        {
+          "caseId": "tapestry-delegate-to-shuttle",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "tapestry-execution",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required delegation case partially passed; dimensions: delegationCorrectness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:20:44.365Z"
+        },
+        {
+          "caseId": "tapestry-execute-plan-step",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "tapestry-execution",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:21:03.090Z"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "suite": "shuttle-execution",
+      "assembledAt": "2026-09-02T20:25:02.669Z",
+      "gitSha": "3b1210f17adb2580b3e820acd6fabd3b02b68532",
+      "totalCases": 14,
+      "passedCases": 9,
+      "failedCases": 5,
+      "suiteGreen": false,
+      "explanation": {
+        "text": "suite not green; 9/14 passed, 5 failed",
+        "source": "structured_signal"
+      },
+      "cases": [
+        {
+          "caseId": "shuttle-execution-report-structured-evidence",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "shuttle-execution",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:28:36.690Z"
+        },
+        {
+          "caseId": "shuttle-execution-report-tests-and-assumptions",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "shuttle-execution",
+          "scoreBucket": "partial",
+          "passed": false,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:28:52.189Z"
+        },
+        {
+          "caseId": "shuttle-execution-report-structured-evidence",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "shuttle-execution",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:35:49.822Z"
+        },
+        {
+          "caseId": "shuttle-execution-report-tests-and-assumptions",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "shuttle-execution",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:36:08.031Z"
+        },
+        {
+          "caseId": "shuttle-execution-report-structured-evidence",
+          "modelId": "openai/gpt-5.5",
+          "suite": "shuttle-execution",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:43:25.340Z"
+        },
+        {
+          "caseId": "shuttle-execution-report-tests-and-assumptions",
+          "modelId": "openai/gpt-5.5",
+          "suite": "shuttle-execution",
+          "scoreBucket": "partial",
+          "passed": false,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:43:36.738Z"
+        },
+        {
+          "caseId": "shuttle-execution-report-structured-evidence",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "shuttle-execution",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:50:45.314Z"
+        },
+        {
+          "caseId": "shuttle-execution-report-tests-and-assumptions",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "shuttle-execution",
+          "scoreBucket": "partial",
+          "passed": false,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:51:15.267Z"
+        },
+        {
+          "caseId": "shuttle-execution-report-structured-evidence",
+          "modelId": "openai/gpt-5.6-sol",
+          "suite": "shuttle-execution",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:59:03.658Z"
+        },
+        {
+          "caseId": "shuttle-execution-report-tests-and-assumptions",
+          "modelId": "openai/gpt-5.6-sol",
+          "suite": "shuttle-execution",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:59:16.252Z"
+        },
+        {
+          "caseId": "shuttle-execution-report-structured-evidence",
+          "modelId": "qwen/qwen3.8-max",
+          "suite": "shuttle-execution",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:08:41.656Z"
+        },
+        {
+          "caseId": "shuttle-execution-report-tests-and-assumptions",
+          "modelId": "qwen/qwen3.8-max",
+          "suite": "shuttle-execution",
+          "scoreBucket": "partial",
+          "passed": false,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:09:20.133Z"
+        },
+        {
+          "caseId": "shuttle-execution-report-structured-evidence",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "shuttle-execution",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:21:18.527Z"
+        },
+        {
+          "caseId": "shuttle-execution-report-tests-and-assumptions",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "shuttle-execution",
+          "scoreBucket": "partial",
+          "passed": false,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:21:29.635Z"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "suite": "spindle-tools",
+      "assembledAt": "2026-09-02T20:25:02.669Z",
+      "gitSha": "3b1210f17adb2580b3e820acd6fabd3b02b68532",
+      "totalCases": 14,
+      "passedCases": 12,
+      "failedCases": 2,
+      "suiteGreen": false,
+      "explanation": {
+        "text": "suite not green; 12/14 passed, 2 failed",
+        "source": "structured_signal"
+      },
+      "cases": [
+        {
+          "caseId": "spindle-tools-citations-facts-confidence",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "spindle-tools",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:29:09.186Z"
+        },
+        {
+          "caseId": "spindle-tools-source-boundary-network-claims",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "spindle-tools",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:29:28.562Z"
+        },
+        {
+          "caseId": "spindle-tools-citations-facts-confidence",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "spindle-tools",
+          "scoreBucket": "partial",
+          "passed": false,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:36:26.174Z"
+        },
+        {
+          "caseId": "spindle-tools-source-boundary-network-claims",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "spindle-tools",
+          "scoreBucket": "fail",
+          "passed": false,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case failed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:36:47.870Z"
+        },
+        {
+          "caseId": "spindle-tools-citations-facts-confidence",
+          "modelId": "openai/gpt-5.5",
+          "suite": "spindle-tools",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:43:49.530Z"
+        },
+        {
+          "caseId": "spindle-tools-source-boundary-network-claims",
+          "modelId": "openai/gpt-5.5",
+          "suite": "spindle-tools",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:44:00.660Z"
+        },
+        {
+          "caseId": "spindle-tools-citations-facts-confidence",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "spindle-tools",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:51:44.451Z"
+        },
+        {
+          "caseId": "spindle-tools-source-boundary-network-claims",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "spindle-tools",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:52:10.716Z"
+        },
+        {
+          "caseId": "spindle-tools-citations-facts-confidence",
+          "modelId": "openai/gpt-5.6-sol",
+          "suite": "spindle-tools",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:59:26.354Z"
+        },
+        {
+          "caseId": "spindle-tools-source-boundary-network-claims",
+          "modelId": "openai/gpt-5.6-sol",
+          "suite": "spindle-tools",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:59:40.068Z"
+        },
+        {
+          "caseId": "spindle-tools-citations-facts-confidence",
+          "modelId": "qwen/qwen3.8-max",
+          "suite": "spindle-tools",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:10:01.438Z"
+        },
+        {
+          "caseId": "spindle-tools-source-boundary-network-claims",
+          "modelId": "qwen/qwen3.8-max",
+          "suite": "spindle-tools",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:10:57.917Z"
+        },
+        {
+          "caseId": "spindle-tools-citations-facts-confidence",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "spindle-tools",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:21:42.054Z"
+        },
+        {
+          "caseId": "spindle-tools-source-boundary-network-claims",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "spindle-tools",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:22:26.502Z"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "suite": "pattern-planning",
+      "assembledAt": "2026-09-02T20:25:02.669Z",
+      "gitSha": "3b1210f17adb2580b3e820acd6fabd3b02b68532",
+      "totalCases": 14,
+      "passedCases": 5,
+      "failedCases": 9,
+      "suiteGreen": false,
+      "explanation": {
+        "text": "suite not green; 5/14 passed, 9 failed",
+        "source": "structured_signal"
+      },
+      "cases": [
+        {
+          "caseId": "pattern-plan-release-checklist",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "pattern-planning",
+          "scoreBucket": "fail",
+          "passed": false,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case failed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:29:56.183Z"
+        },
+        {
+          "caseId": "pattern-plan-settings-refactor",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "pattern-planning",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:30:30.142Z"
+        },
+        {
+          "caseId": "pattern-plan-release-checklist",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "pattern-planning",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:37:21.682Z"
+        },
+        {
+          "caseId": "pattern-plan-settings-refactor",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "pattern-planning",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:38:01.902Z"
+        },
+        {
+          "caseId": "pattern-plan-release-checklist",
+          "modelId": "openai/gpt-5.5",
+          "suite": "pattern-planning",
+          "scoreBucket": "fail",
+          "passed": false,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case failed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:44:31.866Z"
+        },
+        {
+          "caseId": "pattern-plan-settings-refactor",
+          "modelId": "openai/gpt-5.5",
+          "suite": "pattern-planning",
+          "scoreBucket": "fail",
+          "passed": false,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case failed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:44:47.976Z"
+        },
+        {
+          "caseId": "pattern-plan-release-checklist",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "pattern-planning",
+          "scoreBucket": "fail",
+          "passed": false,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case failed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:52:45.256Z"
+        },
+        {
+          "caseId": "pattern-plan-settings-refactor",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "pattern-planning",
+          "scoreBucket": "fail",
+          "passed": false,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case failed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:53:21.606Z"
+        },
+        {
+          "caseId": "pattern-plan-release-checklist",
+          "modelId": "openai/gpt-5.6-sol",
+          "suite": "pattern-planning",
+          "scoreBucket": "fail",
+          "passed": false,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case failed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:59:49.952Z"
+        },
+        {
+          "caseId": "pattern-plan-settings-refactor",
+          "modelId": "openai/gpt-5.6-sol",
+          "suite": "pattern-planning",
+          "scoreBucket": "fail",
+          "passed": false,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case failed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:59:58.647Z"
+        },
+        {
+          "caseId": "pattern-plan-release-checklist",
+          "modelId": "qwen/qwen3.8-max",
+          "suite": "pattern-planning",
+          "scoreBucket": "fail",
+          "passed": false,
+          "required": true,
+          "dryRun": false,
+          "scoredAt": "2026-09-02T20:11:56.381Z"
+        },
+        {
+          "caseId": "pattern-plan-settings-refactor",
+          "modelId": "qwen/qwen3.8-max",
+          "suite": "pattern-planning",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:12:48.404Z"
+        },
+        {
+          "caseId": "pattern-plan-release-checklist",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "pattern-planning",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:23:12.270Z"
+        },
+        {
+          "caseId": "pattern-plan-settings-refactor",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "pattern-planning",
+          "scoreBucket": "fail",
+          "passed": false,
+          "required": true,
+          "dryRun": false,
+          "scoredAt": "2026-09-02T20:23:28.820Z"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "suite": "weft-review",
+      "assembledAt": "2026-09-02T20:25:02.669Z",
+      "gitSha": "3b1210f17adb2580b3e820acd6fabd3b02b68532",
+      "totalCases": 14,
+      "passedCases": 9,
+      "failedCases": 5,
+      "suiteGreen": false,
+      "explanation": {
+        "text": "suite not green; 9/14 passed, 5 failed",
+        "source": "structured_signal"
+      },
+      "cases": [
+        {
+          "caseId": "weft-review-clean-approval",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "weft-review",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:30:38.143Z"
+        },
+        {
+          "caseId": "weft-review-reject-blocker-citation",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "weft-review",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:30:49.757Z"
+        },
+        {
+          "caseId": "weft-review-clean-approval",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "weft-review",
+          "scoreBucket": "fail",
+          "passed": false,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case failed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:38:13.219Z"
+        },
+        {
+          "caseId": "weft-review-reject-blocker-citation",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "weft-review",
+          "scoreBucket": "fail",
+          "passed": false,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case failed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:38:23.500Z"
+        },
+        {
+          "caseId": "weft-review-clean-approval",
+          "modelId": "openai/gpt-5.5",
+          "suite": "weft-review",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:44:56.077Z"
+        },
+        {
+          "caseId": "weft-review-reject-blocker-citation",
+          "modelId": "openai/gpt-5.5",
+          "suite": "weft-review",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:45:06.650Z"
+        },
+        {
+          "caseId": "weft-review-clean-approval",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "weft-review",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:53:34.544Z"
+        },
+        {
+          "caseId": "weft-review-reject-blocker-citation",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "weft-review",
+          "scoreBucket": "fail",
+          "passed": false,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case failed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:53:46.377Z"
+        },
+        {
+          "caseId": "weft-review-clean-approval",
+          "modelId": "openai/gpt-5.6-sol",
+          "suite": "weft-review",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:00:04.276Z"
+        },
+        {
+          "caseId": "weft-review-reject-blocker-citation",
+          "modelId": "openai/gpt-5.6-sol",
+          "suite": "weft-review",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:00:13.963Z"
+        },
+        {
+          "caseId": "weft-review-clean-approval",
+          "modelId": "qwen/qwen3.8-max",
+          "suite": "weft-review",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:13:03.515Z"
+        },
+        {
+          "caseId": "weft-review-reject-blocker-citation",
+          "modelId": "qwen/qwen3.8-max",
+          "suite": "weft-review",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:13:27.247Z"
+        },
+        {
+          "caseId": "weft-review-clean-approval",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "weft-review",
+          "scoreBucket": "fail",
+          "passed": false,
+          "required": true,
+          "dryRun": false,
+          "scoredAt": "2026-09-02T20:23:40.421Z"
+        },
+        {
+          "caseId": "weft-review-reject-blocker-citation",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "weft-review",
+          "scoreBucket": "fail",
+          "passed": false,
+          "required": true,
+          "dryRun": false,
+          "scoredAt": "2026-09-02T20:23:52.230Z"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "suite": "warp-security",
+      "assembledAt": "2026-09-02T20:25:02.669Z",
+      "gitSha": "3b1210f17adb2580b3e820acd6fabd3b02b68532",
+      "totalCases": 14,
+      "passedCases": 11,
+      "failedCases": 3,
+      "suiteGreen": false,
+      "explanation": {
+        "text": "suite not green; 11/14 passed, 3 failed",
+        "source": "structured_signal"
+      },
+      "cases": [
+        {
+          "caseId": "warp-security-block-evidence-findings",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "warp-security",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:31:07.311Z"
+        },
+        {
+          "caseId": "warp-security-fast-exit-approve",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "warp-security",
+          "scoreBucket": "fail",
+          "passed": false,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case failed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:31:18.610Z"
+        },
+        {
+          "caseId": "warp-security-block-evidence-findings",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "warp-security",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:38:43.872Z"
+        },
+        {
+          "caseId": "warp-security-fast-exit-approve",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "warp-security",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:38:54.518Z"
+        },
+        {
+          "caseId": "warp-security-block-evidence-findings",
+          "modelId": "openai/gpt-5.5",
+          "suite": "warp-security",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:45:31.369Z"
+        },
+        {
+          "caseId": "warp-security-fast-exit-approve",
+          "modelId": "openai/gpt-5.5",
+          "suite": "warp-security",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:45:43.470Z"
+        },
+        {
+          "caseId": "warp-security-block-evidence-findings",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "warp-security",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:54:09.570Z"
+        },
+        {
+          "caseId": "warp-security-fast-exit-approve",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "warp-security",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:54:23.879Z"
+        },
+        {
+          "caseId": "warp-security-block-evidence-findings",
+          "modelId": "openai/gpt-5.6-sol",
+          "suite": "warp-security",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:00:29.563Z"
+        },
+        {
+          "caseId": "warp-security-fast-exit-approve",
+          "modelId": "openai/gpt-5.6-sol",
+          "suite": "warp-security",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:00:38.458Z"
+        },
+        {
+          "caseId": "warp-security-block-evidence-findings",
+          "modelId": "qwen/qwen3.8-max",
+          "suite": "warp-security",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:13:56.414Z"
+        },
+        {
+          "caseId": "warp-security-fast-exit-approve",
+          "modelId": "qwen/qwen3.8-max",
+          "suite": "warp-security",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:14:24.680Z"
+        },
+        {
+          "caseId": "warp-security-block-evidence-findings",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "warp-security",
+          "scoreBucket": "fail",
+          "passed": false,
+          "required": true,
+          "dryRun": false,
+          "scoredAt": "2026-09-02T20:24:01.339Z"
+        },
+        {
+          "caseId": "warp-security-fast-exit-approve",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "warp-security",
+          "scoreBucket": "fail",
+          "passed": false,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required execution case failed; dimensions: executionCompleteness, rationaleQuality",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:24:17.356Z"
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "suite": "tapestry-category-routing",
+      "assembledAt": "2026-09-02T20:25:02.669Z",
+      "gitSha": "3b1210f17adb2580b3e820acd6fabd3b02b68532",
+      "totalCases": 70,
+      "passedCases": 64,
+      "failedCases": 6,
+      "suiteGreen": false,
+      "explanation": {
+        "text": "suite not green; 64/70 passed, 6 failed",
+        "source": "structured_signal"
+      },
+      "cases": [
+        {
+          "caseId": "tcr-01-exact-match",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:31:28.531Z"
+        },
+        {
+          "caseId": "tcr-02-multiple-files",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:31:32.307Z"
+        },
+        {
+          "caseId": "tcr-03-windows-paths",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:31:39.656Z"
+        },
+        {
+          "caseId": "tcr-04-no-match",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:31:41.902Z"
+        },
+        {
+          "caseId": "tcr-05-cross-category",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": false,
+          "dryRun": false,
+          "explanation": {
+            "text": "optional routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:31:49.243Z"
+        },
+        {
+          "caseId": "tcr-06-overlap",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": false,
+          "dryRun": false,
+          "explanation": {
+            "text": "optional routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:31:56.563Z"
+        },
+        {
+          "caseId": "tcr-07-explicit-hint",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": false,
+          "dryRun": false,
+          "explanation": {
+            "text": "optional routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:31:59.908Z"
+        },
+        {
+          "caseId": "tcr-08-misleading-prose",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:32:04.185Z"
+        },
+        {
+          "caseId": "tcr-09-similar-names",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:32:09.022Z"
+        },
+        {
+          "caseId": "tcr-10-disabled-category",
+          "modelId": "anthropic/claude-opus-4.5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:32:12.993Z"
+        },
+        {
+          "caseId": "tcr-01-exact-match",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:39:08.351Z"
+        },
+        {
+          "caseId": "tcr-02-multiple-files",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:39:14.702Z"
+        },
+        {
+          "caseId": "tcr-03-windows-paths",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:39:23.955Z"
+        },
+        {
+          "caseId": "tcr-04-no-match",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:39:28.701Z"
+        },
+        {
+          "caseId": "tcr-05-cross-category",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": false,
+          "dryRun": false,
+          "explanation": {
+            "text": "optional routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:39:38.020Z"
+        },
+        {
+          "caseId": "tcr-06-overlap",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": false,
+          "dryRun": false,
+          "explanation": {
+            "text": "optional routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:39:44.592Z"
+        },
+        {
+          "caseId": "tcr-07-explicit-hint",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": false,
+          "dryRun": false,
+          "explanation": {
+            "text": "optional routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:39:53.815Z"
+        },
+        {
+          "caseId": "tcr-08-misleading-prose",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:40:00.752Z"
+        },
+        {
+          "caseId": "tcr-09-similar-names",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:40:06.550Z"
+        },
+        {
+          "caseId": "tcr-10-disabled-category",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "fail",
+          "passed": false,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case failed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:40:14.629Z"
+        },
+        {
+          "caseId": "tcr-01-exact-match",
+          "modelId": "openai/gpt-5.5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:45:52.490Z"
+        },
+        {
+          "caseId": "tcr-02-multiple-files",
+          "modelId": "openai/gpt-5.5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:45:55.898Z"
+        },
+        {
+          "caseId": "tcr-03-windows-paths",
+          "modelId": "openai/gpt-5.5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:46:00.067Z"
+        },
+        {
+          "caseId": "tcr-04-no-match",
+          "modelId": "openai/gpt-5.5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:46:02.865Z"
+        },
+        {
+          "caseId": "tcr-05-cross-category",
+          "modelId": "openai/gpt-5.5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": false,
+          "dryRun": false,
+          "explanation": {
+            "text": "optional routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:46:05.879Z"
+        },
+        {
+          "caseId": "tcr-06-overlap",
+          "modelId": "openai/gpt-5.5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": false,
+          "dryRun": false,
+          "explanation": {
+            "text": "optional routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:46:10.301Z"
+        },
+        {
+          "caseId": "tcr-07-explicit-hint",
+          "modelId": "openai/gpt-5.5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": false,
+          "dryRun": false,
+          "explanation": {
+            "text": "optional routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:46:13.861Z"
+        },
+        {
+          "caseId": "tcr-08-misleading-prose",
+          "modelId": "openai/gpt-5.5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:46:16.571Z"
+        },
+        {
+          "caseId": "tcr-09-similar-names",
+          "modelId": "openai/gpt-5.5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:46:19.657Z"
+        },
+        {
+          "caseId": "tcr-10-disabled-category",
+          "modelId": "openai/gpt-5.5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:46:22.775Z"
+        },
+        {
+          "caseId": "tcr-01-exact-match",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:54:41.455Z"
+        },
+        {
+          "caseId": "tcr-02-multiple-files",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:54:54.557Z"
+        },
+        {
+          "caseId": "tcr-03-windows-paths",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:55:07.467Z"
+        },
+        {
+          "caseId": "tcr-04-no-match",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:55:13.621Z"
+        },
+        {
+          "caseId": "tcr-05-cross-category",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "fail",
+          "passed": false,
+          "required": false,
+          "dryRun": false,
+          "explanation": {
+            "text": "optional routing case failed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:55:33.238Z"
+        },
+        {
+          "caseId": "tcr-06-overlap",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "fail",
+          "passed": false,
+          "required": false,
+          "dryRun": false,
+          "explanation": {
+            "text": "optional routing case failed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:55:46.710Z"
+        },
+        {
+          "caseId": "tcr-07-explicit-hint",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": false,
+          "dryRun": false,
+          "explanation": {
+            "text": "optional routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:55:57.557Z"
+        },
+        {
+          "caseId": "tcr-08-misleading-prose",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:56:14.266Z"
+        },
+        {
+          "caseId": "tcr-09-similar-names",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:56:22.784Z"
+        },
+        {
+          "caseId": "tcr-10-disabled-category",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T19:56:29.798Z"
+        },
+        {
+          "caseId": "tcr-01-exact-match",
+          "modelId": "openai/gpt-5.6-sol",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:00:47.150Z"
+        },
+        {
+          "caseId": "tcr-02-multiple-files",
+          "modelId": "openai/gpt-5.6-sol",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:00:48.644Z"
+        },
+        {
+          "caseId": "tcr-03-windows-paths",
+          "modelId": "openai/gpt-5.6-sol",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:00:51.182Z"
+        },
+        {
+          "caseId": "tcr-04-no-match",
+          "modelId": "openai/gpt-5.6-sol",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:00:52.539Z"
+        },
+        {
+          "caseId": "tcr-05-cross-category",
+          "modelId": "openai/gpt-5.6-sol",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": false,
+          "dryRun": false,
+          "explanation": {
+            "text": "optional routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:00:54.204Z"
+        },
+        {
+          "caseId": "tcr-06-overlap",
+          "modelId": "openai/gpt-5.6-sol",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": false,
+          "dryRun": false,
+          "explanation": {
+            "text": "optional routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:00:57.211Z"
+        },
+        {
+          "caseId": "tcr-07-explicit-hint",
+          "modelId": "openai/gpt-5.6-sol",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": false,
+          "dryRun": false,
+          "explanation": {
+            "text": "optional routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:00:59.084Z"
+        },
+        {
+          "caseId": "tcr-08-misleading-prose",
+          "modelId": "openai/gpt-5.6-sol",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:01:01.894Z"
+        },
+        {
+          "caseId": "tcr-09-similar-names",
+          "modelId": "openai/gpt-5.6-sol",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:01:03.287Z"
+        },
+        {
+          "caseId": "tcr-10-disabled-category",
+          "modelId": "openai/gpt-5.6-sol",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:01:04.718Z"
+        },
+        {
+          "caseId": "tcr-01-exact-match",
+          "modelId": "qwen/qwen3.8-max",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:14:36.185Z"
+        },
+        {
+          "caseId": "tcr-02-multiple-files",
+          "modelId": "qwen/qwen3.8-max",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:14:48.283Z"
+        },
+        {
+          "caseId": "tcr-03-windows-paths",
+          "modelId": "qwen/qwen3.8-max",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:14:57.753Z"
+        },
+        {
+          "caseId": "tcr-04-no-match",
+          "modelId": "qwen/qwen3.8-max",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:15:05.404Z"
+        },
+        {
+          "caseId": "tcr-05-cross-category",
+          "modelId": "qwen/qwen3.8-max",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "fail",
+          "passed": false,
+          "required": false,
+          "dryRun": false,
+          "explanation": {
+            "text": "optional routing case failed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:15:40.087Z"
+        },
+        {
+          "caseId": "tcr-06-overlap",
+          "modelId": "qwen/qwen3.8-max",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "fail",
+          "passed": false,
+          "required": false,
+          "dryRun": false,
+          "explanation": {
+            "text": "optional routing case failed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:15:49.908Z"
+        },
+        {
+          "caseId": "tcr-07-explicit-hint",
+          "modelId": "qwen/qwen3.8-max",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": false,
+          "dryRun": false,
+          "explanation": {
+            "text": "optional routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:16:34.350Z"
+        },
+        {
+          "caseId": "tcr-08-misleading-prose",
+          "modelId": "qwen/qwen3.8-max",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:16:47.991Z"
+        },
+        {
+          "caseId": "tcr-09-similar-names",
+          "modelId": "qwen/qwen3.8-max",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:16:55.921Z"
+        },
+        {
+          "caseId": "tcr-10-disabled-category",
+          "modelId": "qwen/qwen3.8-max",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:17:04.353Z"
+        },
+        {
+          "caseId": "tcr-01-exact-match",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:24:29.733Z"
+        },
+        {
+          "caseId": "tcr-02-multiple-files",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:24:30.984Z"
+        },
+        {
+          "caseId": "tcr-03-windows-paths",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:24:39.761Z"
+        },
+        {
+          "caseId": "tcr-04-no-match",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:24:42.594Z"
+        },
+        {
+          "caseId": "tcr-05-cross-category",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": false,
+          "dryRun": false,
+          "explanation": {
+            "text": "optional routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:24:47.532Z"
+        },
+        {
+          "caseId": "tcr-06-overlap",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "fail",
+          "passed": false,
+          "required": false,
+          "dryRun": false,
+          "explanation": {
+            "text": "optional routing case failed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:24:52.449Z"
+        },
+        {
+          "caseId": "tcr-07-explicit-hint",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": false,
+          "dryRun": false,
+          "explanation": {
+            "text": "optional routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:24:54.310Z"
+        },
+        {
+          "caseId": "tcr-08-misleading-prose",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:24:58.107Z"
+        },
+        {
+          "caseId": "tcr-09-similar-names",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:25:00.323Z"
+        },
+        {
+          "caseId": "tcr-10-disabled-category",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "tapestry-category-routing",
+          "scoreBucket": "partial",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required routing case partially passed; dimensions: routingCorrectness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-02T20:25:02.665Z"
+        }
+      ]
+    }
+  ]
+}
