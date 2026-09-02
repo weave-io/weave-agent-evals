@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "runId": "3b1210f-2026-09-02-001",
+  "assembledAt": "2026-09-02T20:25:02.669Z",
+  "gitSha": "3b1210f17adb2580b3e820acd6fabd3b02b68532",
+  "dryRun": false,
+  "models": [
+    {
+      "modelId": "anthropic/claude-opus-4.5",
+      "displayName": "anthropic/claude-opus-4.5",
+      "totalCases": 37,
+      "passedCases": 32,
+      "failedCases": 5,
+      "passRate": 0.8648648648648649,
+      "perSuitePassRates": {
+        "loom-routing": 0.8666666666666667,
+        "tapestry-execution": 1,
+        "shuttle-execution": 0.5,
+        "spindle-tools": 1,
+        "pattern-planning": 0.5,
+        "weft-review": 1,
+        "warp-security": 0.5,
+        "tapestry-category-routing": 1
+      },
+      "overallBucket": "partial",
+      "explanation": {
+        "text": "model bucket: partial; 32/37 passed, 5 failed",
+        "source": "score_bucket_label"
+      }
+    },
+    {
+      "modelId": "anthropic/claude-opus-5",
+      "displayName": "anthropic/claude-opus-5",
+      "totalCases": 37,
+      "passedCases": 30,
+      "failedCases": 7,
+      "passRate": 0.8108108108108109,
+      "perSuitePassRates": {
+        "loom-routing": 1,
+        "tapestry-execution": 0.5,
+        "shuttle-execution": 0.5,
+        "spindle-tools": 1,
+        "pattern-planning": 0,
+        "weft-review": 0.5,
+        "warp-security": 1,
+        "tapestry-category-routing": 0.8
+      },
+      "overallBucket": "partial",
+      "explanation": {
+        "text": "model bucket: partial; 30/37 passed, 7 failed",
+        "source": "score_bucket_label"
+      }
+    },
+    {
+      "modelId": "anthropic/claude-sonnet-4.5",
+      "displayName": "anthropic/claude-sonnet-4.5",
+      "totalCases": 37,
+      "passedCases": 32,
+      "failedCases": 5,
+      "passRate": 0.8648648648648649,
+      "perSuitePassRates": {
+        "loom-routing": 1,
+        "tapestry-execution": 1,
+        "shuttle-execution": 1,
+        "spindle-tools": 0,
+        "pattern-planning": 1,
+        "weft-review": 0,
+        "warp-security": 1,
+        "tapestry-category-routing": 0.9
+      },
+      "overallBucket": "partial",
+      "explanation": {
+        "text": "model bucket: partial; 32/37 passed, 5 failed",
+        "source": "score_bucket_label"
+      }
+    },
+    {
+      "modelId": "deepseek/deepseek-v4-flash-0731",
+      "displayName": "deepseek/deepseek-v4-flash-0731",
+      "totalCases": 37,
+      "passedCases": 30,
+      "failedCases": 7,
+      "passRate": 0.8108108108108109,
+      "perSuitePassRates": {
+        "loom-routing": 1,
+        "tapestry-execution": 1,
+        "shuttle-execution": 0.5,
+        "spindle-tools": 1,
+        "pattern-planning": 0.5,
+        "weft-review": 0,
+        "warp-security": 0,
+        "tapestry-category-routing": 0.9
+      },
+      "overallBucket": "partial",
+      "explanation": {
+        "text": "model bucket: partial; 30/37 passed, 7 failed",
+        "source": "score_bucket_label"
+      }
+    },
+    {
+      "modelId": "openai/gpt-5.5",
+      "displayName": "openai/gpt-5.5",
+      "totalCases": 37,
+      "passedCases": 34,
+      "failedCases": 3,
+      "passRate": 0.918918918918919,
+      "perSuitePassRates": {
+        "loom-routing": 1,
+        "tapestry-execution": 1,
+        "shuttle-execution": 0.5,
+        "spindle-tools": 1,
+        "pattern-planning": 0,
+        "weft-review": 1,
+        "warp-security": 1,
+        "tapestry-category-routing": 1
+      },
+      "overallBucket": "pass",
+      "explanation": {
+        "text": "model bucket: pass; 34/37 passed, 3 failed",
+        "source": "score_bucket_label"
+      }
+    },
+    {
+      "modelId": "openai/gpt-5.6-sol",
+      "displayName": "openai/gpt-5.6-sol",
+      "totalCases": 37,
+      "passedCases": 35,
+      "failedCases": 2,
+      "passRate": 0.9459459459459459,
+      "perSuitePassRates": {
+        "loom-routing": 1,
+        "tapestry-execution": 1,
+        "shuttle-execution": 1,
+        "spindle-tools": 1,
+        "pattern-planning": 0,
+        "weft-review": 1,
+        "warp-security": 1,
+        "tapestry-category-routing": 1
+      },
+      "overallBucket": "pass",
+      "explanation": {
+        "text": "model bucket: pass; 35/37 passed, 2 failed",
+        "source": "score_bucket_label"
+      }
+    },
+    {
+      "modelId": "qwen/qwen3.8-max",
+      "displayName": "qwen/qwen3.8-max",
+      "totalCases": 37,
+      "passedCases": 33,
+      "failedCases": 4,
+      "passRate": 0.8918918918918919,
+      "perSuitePassRates": {
+        "loom-routing": 1,
+        "tapestry-execution": 1,
+        "shuttle-execution": 0.5,
+        "spindle-tools": 1,
+        "pattern-planning": 0.5,
+        "weft-review": 1,
+        "warp-security": 1,
+        "tapestry-category-routing": 0.8
+      },
+      "overallBucket": "partial",
+      "explanation": {
+        "text": "model bucket: partial; 33/37 passed, 4 failed",
+        "source": "score_bucket_label"
+      }
+    }
+  ]
+}
