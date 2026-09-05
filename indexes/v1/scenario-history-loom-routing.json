@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
   "suite": "loom-routing",
-  "updatedAt": "2026-09-02T20:25:02.927Z",
+  "updatedAt": "2026-09-05T21:00:29.939Z",
   "scenarios": [
     {
       "caseId": "loom-route-ambiguous-direct-shuttle",
       "title": "loom-route-ambiguous-direct-shuttle",
-      "description": "required routing case failed; dimensions: routingCorrectness, rationaleQuality",
+      "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "3b1210f-2026-09-02-001",
-          "assembledAt": "2026-09-02T20:25:02.669Z",
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
           "status": "partial",
           "passed": false,
-          "totalModels": 7,
-          "passedModels": 6,
+          "totalModels": 8,
+          "passedModels": 7,
           "failedModels": 1,
           "skippedModels": 0
         }
@@ -26,12 +26,12 @@
       "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "3b1210f-2026-09-02-001",
-          "assembledAt": "2026-09-02T20:25:02.669Z",
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
           "status": "pass",
           "passed": true,
-          "totalModels": 7,
-          "passedModels": 7,
+          "totalModels": 8,
+          "passedModels": 8,
           "failedModels": 0,
           "skippedModels": 0
         }
@@ -40,15 +40,15 @@
     {
       "caseId": "loom-route-frontend-ui",
       "title": "loom-route-frontend-ui",
-      "description": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
+      "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "3b1210f-2026-09-02-001",
-          "assembledAt": "2026-09-02T20:25:02.669Z",
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
           "status": "pass",
           "passed": true,
-          "totalModels": 7,
-          "passedModels": 7,
+          "totalModels": 8,
+          "passedModels": 8,
           "failedModels": 0,
           "skippedModels": 0
         }
@@ -60,12 +60,12 @@
       "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "3b1210f-2026-09-02-001",
-          "assembledAt": "2026-09-02T20:25:02.669Z",
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
           "status": "pass",
           "passed": true,
-          "totalModels": 7,
-          "passedModels": 7,
+          "totalModels": 8,
+          "passedModels": 8,
           "failedModels": 0,
           "skippedModels": 0
         }
@@ -77,12 +77,12 @@
       "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "3b1210f-2026-09-02-001",
-          "assembledAt": "2026-09-02T20:25:02.669Z",
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
           "status": "pass",
           "passed": true,
-          "totalModels": 7,
-          "passedModels": 7,
+          "totalModels": 8,
+          "passedModels": 8,
           "failedModels": 0,
           "skippedModels": 0
         }
@@ -94,12 +94,12 @@
       "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "3b1210f-2026-09-02-001",
-          "assembledAt": "2026-09-02T20:25:02.669Z",
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
           "status": "pass",
           "passed": true,
-          "totalModels": 7,
-          "passedModels": 7,
+          "totalModels": 8,
+          "passedModels": 8,
           "failedModels": 0,
           "skippedModels": 0
         }
@@ -111,12 +111,12 @@
       "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "3b1210f-2026-09-02-001",
-          "assembledAt": "2026-09-02T20:25:02.669Z",
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
           "status": "pass",
           "passed": true,
-          "totalModels": 7,
-          "passedModels": 7,
+          "totalModels": 8,
+          "passedModels": 8,
           "failedModels": 0,
           "skippedModels": 0
         }
@@ -128,13 +128,13 @@
       "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "3b1210f-2026-09-02-001",
-          "assembledAt": "2026-09-02T20:25:02.669Z",
-          "status": "pass",
-          "passed": true,
-          "totalModels": 7,
-          "passedModels": 7,
-          "failedModels": 0,
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 8,
+          "passedModels": 6,
+          "failedModels": 2,
           "skippedModels": 0
         }
       ]
@@ -145,13 +145,13 @@
       "description": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "3b1210f-2026-09-02-001",
-          "assembledAt": "2026-09-02T20:25:02.669Z",
-          "status": "pass",
-          "passed": true,
-          "totalModels": 7,
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 8,
           "passedModels": 7,
-          "failedModels": 0,
+          "failedModels": 1,
           "skippedModels": 0
         }
       ]
@@ -162,13 +162,13 @@
       "description": "required routing case failed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "3b1210f-2026-09-02-001",
-          "assembledAt": "2026-09-02T20:25:02.669Z",
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
           "status": "partial",
           "passed": false,
-          "totalModels": 7,
+          "totalModels": 8,
           "passedModels": 6,
-          "failedModels": 1,
+          "failedModels": 2,
           "skippedModels": 0
         }
       ]
@@ -179,12 +179,12 @@
       "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "3b1210f-2026-09-02-001",
-          "assembledAt": "2026-09-02T20:25:02.669Z",
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
           "status": "pass",
           "passed": true,
-          "totalModels": 7,
-          "passedModels": 7,
+          "totalModels": 8,
+          "passedModels": 8,
           "failedModels": 0,
           "skippedModels": 0
         }
@@ -196,13 +196,13 @@
       "description": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "3b1210f-2026-09-02-001",
-          "assembledAt": "2026-09-02T20:25:02.669Z",
-          "status": "pass",
-          "passed": true,
-          "totalModels": 7,
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 8,
           "passedModels": 7,
-          "failedModels": 0,
+          "failedModels": 1,
           "skippedModels": 0
         }
       ]
@@ -213,12 +213,12 @@
       "description": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "3b1210f-2026-09-02-001",
-          "assembledAt": "2026-09-02T20:25:02.669Z",
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
           "status": "pass",
           "passed": true,
-          "totalModels": 7,
-          "passedModels": 7,
+          "totalModels": 8,
+          "passedModels": 8,
           "failedModels": 0,
           "skippedModels": 0
         }
@@ -227,15 +227,15 @@
     {
       "caseId": "loom-route-weft-boundary-downstream-review",
       "title": "loom-route-weft-boundary-downstream-review",
-      "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
+      "description": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "3b1210f-2026-09-02-001",
-          "assembledAt": "2026-09-02T20:25:02.669Z",
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
           "status": "pass",
           "passed": true,
-          "totalModels": 7,
-          "passedModels": 7,
+          "totalModels": 8,
+          "passedModels": 8,
           "failedModels": 0,
           "skippedModels": 0
         }
@@ -247,12 +247,12 @@
       "description": "required routing case partially passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "3b1210f-2026-09-02-001",
-          "assembledAt": "2026-09-02T20:25:02.669Z",
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
           "status": "pass",
           "passed": true,
-          "totalModels": 7,
-          "passedModels": 7,
+          "totalModels": 8,
+          "passedModels": 8,
           "failedModels": 0,
           "skippedModels": 0
         }
