@@ -1,0 +1,502 @@
+{
+  "schemaVersion": 1,
+  "assembledAt": "2026-09-25T02:08:30.775Z",
+  "gitSha": "1fff43ef7edbedbd0c1500273fd35eedf378ebd7",
+  "dryRun": false,
+  "runSummary": {
+    "totalCases": 20,
+    "passedCases": 18,
+    "failedCases": 1,
+    "erroredCases": 1,
+    "allSuitesGreen": false,
+    "suites": [
+      "loom-routing",
+      "tapestry-execution",
+      "shuttle-execution"
+    ]
+  },
+  "judge": {
+    "id": "typesafe/jev-1.13",
+    "version": "typesafe/jev-1.13-20260917"
+  },
+  "suiteSummaries": [
+    {
+      "schemaVersion": 2,
+      "suite": "loom-routing",
+      "assembledAt": "2026-09-25T02:08:30.775Z",
+      "gitSha": "1fff43ef7edbedbd0c1500273fd35eedf378ebd7",
+      "totalCases": 8,
+      "passedCases": 7,
+      "failedCases": 1,
+      "suiteGreen": false,
+      "explanation": {
+        "text": "suite not green; 7/8 passed, 1 failed",
+        "source": "structured_signal"
+      },
+      "hasRuntimeVerifiedCases": true,
+      "cases": [
+        {
+          "caseId": "loom-delegates-backend-fix-to-category-trajectory",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "fail",
+          "passed": false,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required harness-trajectory case failed; dimensions: routingCorrectness, delegationCorrectness, executionCompleteness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-25T01:48:29.002Z",
+          "trajectorySummary": {
+            "harnessDelegatedCorrectly": false,
+            "observedSpawns": [],
+            "observedToolCalls": 5,
+            "harnessCompletedWithoutError": true
+          }
+        },
+        {
+          "caseId": "loom-runs-the-failing-check-itself-trajectory",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required harness-trajectory case passed; dimensions: routingCorrectness, delegationCorrectness, executionCompleteness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-25T01:49:07.229Z",
+          "trajectorySummary": {
+            "harnessDelegatedCorrectly": false,
+            "observedSpawns": [],
+            "observedToolCalls": 15,
+            "harnessCompletedWithoutError": true
+          }
+        },
+        {
+          "caseId": "loom-delegates-backend-fix-to-category-trajectory",
+          "modelId": "openai/gpt-5.5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required harness-trajectory case passed; dimensions: routingCorrectness, delegationCorrectness, executionCompleteness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-25T01:52:28.869Z",
+          "trajectorySummary": {
+            "harnessDelegatedCorrectly": true,
+            "observedSpawns": [
+              "shuttle-backend"
+            ],
+            "observedToolCalls": 10,
+            "harnessCompletedWithoutError": true
+          }
+        },
+        {
+          "caseId": "loom-runs-the-failing-check-itself-trajectory",
+          "modelId": "openai/gpt-5.5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required harness-trajectory case passed; dimensions: routingCorrectness, delegationCorrectness, executionCompleteness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-25T01:53:22.359Z",
+          "trajectorySummary": {
+            "harnessDelegatedCorrectly": true,
+            "observedSpawns": [
+              "shuttle"
+            ],
+            "observedToolCalls": 18,
+            "harnessCompletedWithoutError": true
+          }
+        },
+        {
+          "caseId": "loom-delegates-backend-fix-to-category-trajectory",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required harness-trajectory case passed; dimensions: routingCorrectness, delegationCorrectness, executionCompleteness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-25T01:57:05.422Z",
+          "trajectorySummary": {
+            "harnessDelegatedCorrectly": true,
+            "observedSpawns": [
+              "shuttle-backend"
+            ],
+            "observedToolCalls": 13,
+            "harnessCompletedWithoutError": true
+          }
+        },
+        {
+          "caseId": "loom-runs-the-failing-check-itself-trajectory",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required harness-trajectory case passed; dimensions: routingCorrectness, delegationCorrectness, executionCompleteness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-25T01:58:09.704Z",
+          "trajectorySummary": {
+            "harnessDelegatedCorrectly": false,
+            "observedSpawns": [],
+            "observedToolCalls": 11,
+            "harnessCompletedWithoutError": true
+          }
+        },
+        {
+          "caseId": "loom-delegates-backend-fix-to-category-trajectory",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required harness-trajectory case passed; dimensions: routingCorrectness, delegationCorrectness, executionCompleteness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-25T02:03:21.624Z",
+          "trajectorySummary": {
+            "harnessDelegatedCorrectly": true,
+            "observedSpawns": [
+              "shuttle-backend"
+            ],
+            "observedToolCalls": 18,
+            "harnessCompletedWithoutError": true
+          }
+        },
+        {
+          "caseId": "loom-runs-the-failing-check-itself-trajectory",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "loom-routing",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required harness-trajectory case passed; dimensions: routingCorrectness, delegationCorrectness, executionCompleteness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-25T02:04:31.868Z",
+          "trajectorySummary": {
+            "harnessDelegatedCorrectly": false,
+            "observedSpawns": [],
+            "observedToolCalls": 14,
+            "harnessCompletedWithoutError": true
+          }
+        }
+      ]
+    },
+    {
+      "schemaVersion": 2,
+      "suite": "tapestry-execution",
+      "assembledAt": "2026-09-25T02:08:30.775Z",
+      "gitSha": "1fff43ef7edbedbd0c1500273fd35eedf378ebd7",
+      "totalCases": 8,
+      "passedCases": 7,
+      "failedCases": 0,
+      "erroredCases": 1,
+      "suiteGreen": false,
+      "explanation": {
+        "text": "suite not green; 7/8 passed, 0 failed, 1 errored",
+        "source": "structured_signal"
+      },
+      "hasRuntimeVerifiedCases": true,
+      "cases": [
+        {
+          "caseId": "tapestry-dispatches-independent-tasks-in-parallel-trajectory",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "tapestry-execution",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required harness-trajectory case passed; dimensions: routingCorrectness, delegationCorrectness, executionCompleteness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-25T01:50:34.704Z",
+          "trajectorySummary": {
+            "harnessDelegatedCorrectly": true,
+            "observedSpawns": [
+              "shuttle",
+              "shuttle"
+            ],
+            "observedToolCalls": 38,
+            "harnessCompletedWithoutError": true
+          }
+        },
+        {
+          "caseId": "tapestry-runs-plan-verification-trajectory",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "tapestry-execution",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required harness-trajectory case passed; dimensions: routingCorrectness, delegationCorrectness, executionCompleteness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-25T01:51:15.810Z",
+          "trajectorySummary": {
+            "harnessDelegatedCorrectly": true,
+            "observedSpawns": [
+              "shuttle"
+            ],
+            "observedToolCalls": 10,
+            "harnessCompletedWithoutError": true
+          }
+        },
+        {
+          "caseId": "tapestry-dispatches-independent-tasks-in-parallel-trajectory",
+          "modelId": "openai/gpt-5.5",
+          "suite": "tapestry-execution",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required harness-trajectory case passed; dimensions: routingCorrectness, delegationCorrectness, executionCompleteness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-25T01:54:35.845Z",
+          "trajectorySummary": {
+            "harnessDelegatedCorrectly": true,
+            "observedSpawns": [
+              "shuttle",
+              "shuttle",
+              "shuttle"
+            ],
+            "observedToolCalls": 30,
+            "harnessCompletedWithoutError": true
+          }
+        },
+        {
+          "caseId": "tapestry-runs-plan-verification-trajectory",
+          "modelId": "openai/gpt-5.5",
+          "suite": "tapestry-execution",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required harness-trajectory case passed; dimensions: routingCorrectness, delegationCorrectness, executionCompleteness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-25T01:55:18.668Z",
+          "trajectorySummary": {
+            "harnessDelegatedCorrectly": true,
+            "observedSpawns": [
+              "shuttle"
+            ],
+            "observedToolCalls": 18,
+            "harnessCompletedWithoutError": true
+          }
+        },
+        {
+          "caseId": "tapestry-dispatches-independent-tasks-in-parallel-trajectory",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "tapestry-execution",
+          "scoreBucket": "skip",
+          "passed": false,
+          "required": true,
+          "dryRun": false,
+          "scoredAt": "2026-09-25T01:58:36.532Z",
+          "errored": true,
+          "errorClassification": "trajectory-HarnessCrashed"
+        },
+        {
+          "caseId": "tapestry-runs-plan-verification-trajectory",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "tapestry-execution",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required harness-trajectory case passed; dimensions: routingCorrectness, delegationCorrectness, executionCompleteness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-25T02:00:32.870Z",
+          "trajectorySummary": {
+            "harnessDelegatedCorrectly": true,
+            "observedSpawns": [
+              "shuttle"
+            ],
+            "observedToolCalls": 23,
+            "harnessCompletedWithoutError": true
+          }
+        },
+        {
+          "caseId": "tapestry-dispatches-independent-tasks-in-parallel-trajectory",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "tapestry-execution",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required harness-trajectory case passed; dimensions: routingCorrectness, delegationCorrectness, executionCompleteness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-25T02:05:27.989Z",
+          "trajectorySummary": {
+            "harnessDelegatedCorrectly": true,
+            "observedSpawns": [
+              "shuttle",
+              "shuttle"
+            ],
+            "observedToolCalls": 25,
+            "harnessCompletedWithoutError": true
+          }
+        },
+        {
+          "caseId": "tapestry-runs-plan-verification-trajectory",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "tapestry-execution",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required harness-trajectory case passed; dimensions: routingCorrectness, delegationCorrectness, executionCompleteness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-25T02:07:56.182Z",
+          "trajectorySummary": {
+            "harnessDelegatedCorrectly": true,
+            "observedSpawns": [
+              "shuttle"
+            ],
+            "observedToolCalls": 28,
+            "harnessCompletedWithoutError": true
+          }
+        }
+      ]
+    },
+    {
+      "schemaVersion": 2,
+      "suite": "shuttle-execution",
+      "assembledAt": "2026-09-25T02:08:30.775Z",
+      "gitSha": "1fff43ef7edbedbd0c1500273fd35eedf378ebd7",
+      "totalCases": 4,
+      "passedCases": 4,
+      "failedCases": 0,
+      "suiteGreen": true,
+      "explanation": {
+        "text": "suite green; all 4 case(s) passed",
+        "source": "structured_signal"
+      },
+      "hasRuntimeVerifiedCases": true,
+      "cases": [
+        {
+          "caseId": "shuttle-verify-tests-after-edit-trajectory",
+          "modelId": "anthropic/claude-sonnet-4.5",
+          "suite": "shuttle-execution",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required harness-trajectory case passed; dimensions: routingCorrectness, delegationCorrectness, executionCompleteness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-25T01:51:58.575Z",
+          "trajectorySummary": {
+            "harnessDelegatedCorrectly": true,
+            "observedSpawns": [
+              "shuttle"
+            ],
+            "observedToolCalls": 9,
+            "harnessCompletedWithoutError": true
+          }
+        },
+        {
+          "caseId": "shuttle-verify-tests-after-edit-trajectory",
+          "modelId": "openai/gpt-5.5",
+          "suite": "shuttle-execution",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required harness-trajectory case passed; dimensions: routingCorrectness, delegationCorrectness, executionCompleteness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-25T01:55:54.723Z",
+          "trajectorySummary": {
+            "harnessDelegatedCorrectly": true,
+            "observedSpawns": [
+              "shuttle"
+            ],
+            "observedToolCalls": 10,
+            "harnessCompletedWithoutError": true
+          }
+        },
+        {
+          "caseId": "shuttle-verify-tests-after-edit-trajectory",
+          "modelId": "anthropic/claude-opus-5",
+          "suite": "shuttle-execution",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required harness-trajectory case passed; dimensions: routingCorrectness, delegationCorrectness, executionCompleteness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-25T02:02:18.365Z",
+          "trajectorySummary": {
+            "harnessDelegatedCorrectly": true,
+            "observedSpawns": [
+              "shuttle"
+            ],
+            "observedToolCalls": 17,
+            "harnessCompletedWithoutError": true
+          }
+        },
+        {
+          "caseId": "shuttle-verify-tests-after-edit-trajectory",
+          "modelId": "deepseek/deepseek-v4-flash-0731",
+          "suite": "shuttle-execution",
+          "scoreBucket": "pass",
+          "passed": true,
+          "required": true,
+          "dryRun": false,
+          "explanation": {
+            "text": "required harness-trajectory case passed; dimensions: routingCorrectness, delegationCorrectness, executionCompleteness",
+            "source": "structured_signal"
+          },
+          "scoredAt": "2026-09-25T02:08:30.701Z",
+          "trajectorySummary": {
+            "harnessDelegatedCorrectly": true,
+            "observedSpawns": [
+              "shuttle"
+            ],
+            "observedToolCalls": 13,
+            "harnessCompletedWithoutError": true
+          }
+        }
+      ]
+    }
+  ]
+}
