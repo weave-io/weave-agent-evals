@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
   "suite": "tapestry-execution",
-  "updatedAt": "2026-09-05T21:00:29.939Z",
+  "updatedAt": "2026-09-25T01:46:13.987Z",
   "history": [
     {
-      "assembledAt": "2026-09-05T21:00:29.642Z",
-      "gitSha": "80ffde6a0922530ebbd63729ff8bafd9ac61a520",
-      "runId": "80ffde6-2026-09-05-001",
-      "totalCases": 16,
-      "passedCases": 16,
-      "suiteGreen": true,
-      "passRate": 1
+      "assembledAt": "2026-09-25T01:46:13.724Z",
+      "gitSha": "1fff43ef7edbedbd0c1500273fd35eedf378ebd7",
+      "runId": "1fff43e-2026-09-25-001",
+      "totalCases": 36,
+      "passedCases": 34,
+      "suiteGreen": false,
+      "passRate": 0.9444444444444444
     }
   ]
 }
