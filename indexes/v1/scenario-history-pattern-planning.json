@@ -1,30 +1,23 @@
 {
   "schemaVersion": 1,
   "suite": "pattern-planning",
-  "updatedAt": "2026-09-25T01:46:13.987Z",
+  "updatedAt": "2026-09-25T04:13:41.173Z",
   "scenarios": [
-    {
-      "caseId": "pattern-plan-no-invented-commands",
-      "title": "pattern-plan-no-invented-commands",
-      "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
-      "lastRuns": [
-        {
-          "runId": "1fff43e-2026-09-25-001",
-          "assembledAt": "2026-09-25T01:46:13.724Z",
-          "status": "pass",
-          "passed": true,
-          "totalModels": 9,
-          "passedModels": 9,
-          "failedModels": 0,
-          "skippedModels": 0
-        }
-      ]
-    },
     {
       "caseId": "pattern-plan-release-checklist",
       "title": "pattern-plan-release-checklist",
       "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
       "lastRuns": [
+        {
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 8,
+          "passedModels": 3,
+          "failedModels": 5,
+          "skippedModels": 0
+        },
         {
           "runId": "1fff43e-2026-09-25-001",
           "assembledAt": "2026-09-25T01:46:13.724Z",
@@ -43,6 +36,16 @@
       "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
       "lastRuns": [
         {
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 8,
+          "passedModels": 3,
+          "failedModels": 5,
+          "skippedModels": 0
+        },
+        {
           "runId": "1fff43e-2026-09-25-001",
           "assembledAt": "2026-09-25T01:46:13.724Z",
           "status": "partial",
@@ -50,6 +53,23 @@
           "totalModels": 9,
           "passedModels": 8,
           "failedModels": 1,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "pattern-plan-no-invented-commands",
+      "title": "pattern-plan-no-invented-commands",
+      "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "1fff43e-2026-09-25-001",
+          "assembledAt": "2026-09-25T01:46:13.724Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 9,
+          "passedModels": 9,
+          "failedModels": 0,
           "skippedModels": 0
         }
       ]
