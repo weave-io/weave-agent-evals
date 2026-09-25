@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "suite": "spindle-tools",
-  "updatedAt": "2026-09-05T21:00:29.939Z",
+  "updatedAt": "2026-09-25T01:46:13.987Z",
   "scenarios": [
     {
       "caseId": "spindle-tools-citations-facts-confidence",
       "title": "spindle-tools-citations-facts-confidence",
-      "description": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+      "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "80ffde6-2026-09-05-001",
-          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "runId": "1fff43e-2026-09-25-001",
+          "assembledAt": "2026-09-25T01:46:13.724Z",
           "status": "partial",
           "passed": false,
-          "totalModels": 8,
-          "passedModels": 6,
-          "failedModels": 2,
+          "totalModels": 9,
+          "passedModels": 8,
+          "failedModels": 1,
           "skippedModels": 0
         }
       ]
@@ -23,16 +23,16 @@
     {
       "caseId": "spindle-tools-source-boundary-network-claims",
       "title": "spindle-tools-source-boundary-network-claims",
-      "description": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+      "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "80ffde6-2026-09-05-001",
-          "assembledAt": "2026-09-05T21:00:29.642Z",
-          "status": "partial",
-          "passed": false,
-          "totalModels": 8,
-          "passedModels": 7,
-          "failedModels": 1,
+          "runId": "1fff43e-2026-09-25-001",
+          "assembledAt": "2026-09-25T01:46:13.724Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 9,
+          "passedModels": 9,
+          "failedModels": 0,
           "skippedModels": 0
         }
       ]
