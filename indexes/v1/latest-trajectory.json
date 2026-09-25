@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-25T04:13:41.173Z",
+  "runId": "1fff43e-2026-09-25-002",
+  "assembledAt": "2026-09-25T02:08:30.775Z",
+  "gitSha": "1fff43ef7edbedbd0c1500273fd35eedf378ebd7",
+  "dryRun": false,
+  "allSuitesGreen": false,
+  "totalCases": 20,
+  "passedCases": 18,
+  "failedCases": 1,
+  "erroredCases": 1,
+  "suites": [
+    "loom-routing",
+    "tapestry-execution",
+    "shuttle-execution"
+  ]
+}
