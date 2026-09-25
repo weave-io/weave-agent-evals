@@ -1,8 +1,17 @@
 {
   "schemaVersion": 1,
   "suite": "warp-security",
-  "updatedAt": "2026-09-25T01:46:13.987Z",
+  "updatedAt": "2026-09-25T04:13:41.173Z",
   "history": [
+    {
+      "assembledAt": "2026-09-05T21:00:29.642Z",
+      "gitSha": "80ffde6a0922530ebbd63729ff8bafd9ac61a520",
+      "runId": "80ffde6-2026-09-05-001",
+      "totalCases": 16,
+      "passedCases": 10,
+      "suiteGreen": false,
+      "passRate": 0.625
+    },
     {
       "assembledAt": "2026-09-25T01:46:13.724Z",
       "gitSha": "1fff43ef7edbedbd0c1500273fd35eedf378ebd7",
