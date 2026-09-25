@@ -1,13 +1,23 @@
 {
   "schemaVersion": 1,
   "suite": "tapestry-category-routing",
-  "updatedAt": "2026-09-25T01:46:13.987Z",
+  "updatedAt": "2026-09-25T04:13:41.173Z",
   "scenarios": [
     {
       "caseId": "tcr-01-exact-match",
       "title": "tcr-01-exact-match",
       "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
+        {
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 8,
+          "passedModels": 8,
+          "failedModels": 0,
+          "skippedModels": 0
+        },
         {
           "runId": "1fff43e-2026-09-25-001",
           "assembledAt": "2026-09-25T01:46:13.724Z",
@@ -26,6 +36,16 @@
       "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 8,
+          "passedModels": 8,
+          "failedModels": 0,
+          "skippedModels": 0
+        },
+        {
           "runId": "1fff43e-2026-09-25-001",
           "assembledAt": "2026-09-25T01:46:13.724Z",
           "status": "partial",
@@ -42,6 +62,16 @@
       "title": "tcr-03-windows-paths",
       "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
+        {
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 8,
+          "passedModels": 8,
+          "failedModels": 0,
+          "skippedModels": 0
+        },
         {
           "runId": "1fff43e-2026-09-25-001",
           "assembledAt": "2026-09-25T01:46:13.724Z",
@@ -60,6 +90,16 @@
       "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 8,
+          "passedModels": 8,
+          "failedModels": 0,
+          "skippedModels": 0
+        },
+        {
           "runId": "1fff43e-2026-09-25-001",
           "assembledAt": "2026-09-25T01:46:13.724Z",
           "status": "pass",
@@ -76,6 +116,16 @@
       "title": "tcr-05-cross-category",
       "description": "optional routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
+        {
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 8,
+          "passedModels": 7,
+          "failedModels": 1,
+          "skippedModels": 0
+        },
         {
           "runId": "1fff43e-2026-09-25-001",
           "assembledAt": "2026-09-25T01:46:13.724Z",
@@ -94,6 +144,16 @@
       "description": "optional routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 8,
+          "passedModels": 8,
+          "failedModels": 0,
+          "skippedModels": 0
+        },
+        {
           "runId": "1fff43e-2026-09-25-001",
           "assembledAt": "2026-09-25T01:46:13.724Z",
           "status": "pass",
@@ -110,6 +170,16 @@
       "title": "tcr-07-explicit-hint",
       "description": "optional routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
+        {
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 8,
+          "passedModels": 8,
+          "failedModels": 0,
+          "skippedModels": 0
+        },
         {
           "runId": "1fff43e-2026-09-25-001",
           "assembledAt": "2026-09-25T01:46:13.724Z",
@@ -128,6 +198,16 @@
       "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 8,
+          "passedModels": 6,
+          "failedModels": 2,
+          "skippedModels": 0
+        },
+        {
           "runId": "1fff43e-2026-09-25-001",
           "assembledAt": "2026-09-25T01:46:13.724Z",
           "status": "pass",
@@ -145,6 +225,16 @@
       "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 8,
+          "passedModels": 8,
+          "failedModels": 0,
+          "skippedModels": 0
+        },
+        {
           "runId": "1fff43e-2026-09-25-001",
           "assembledAt": "2026-09-25T01:46:13.724Z",
           "status": "pass",
@@ -161,6 +251,16 @@
       "title": "tcr-10-disabled-category",
       "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
+        {
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 8,
+          "passedModels": 8,
+          "failedModels": 0,
+          "skippedModels": 0
+        },
         {
           "runId": "1fff43e-2026-09-25-001",
           "assembledAt": "2026-09-25T01:46:13.724Z",
