@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-25T01:46:13.987Z",
-  "totalRuns": 1,
+  "updatedAt": "2026-09-25T04:13:41.173Z",
+  "totalRuns": 2,
   "runs": [
     {
       "runId": "1fff43e-2026-09-25-001",
@@ -23,6 +23,27 @@
         "tapestry-category-routing"
       ],
       "bundleReportPath": "runs/v1/1fff43e-2026-09-25-001/public-report.json"
+    },
+    {
+      "runId": "80ffde6-2026-09-05-001",
+      "assembledAt": "2026-09-05T21:00:29.642Z",
+      "gitSha": "80ffde6a0922530ebbd63729ff8bafd9ac61a520",
+      "dryRun": false,
+      "allSuitesGreen": false,
+      "totalCases": 296,
+      "passedCases": 257,
+      "failedCases": 39,
+      "suites": [
+        "loom-routing",
+        "tapestry-execution",
+        "shuttle-execution",
+        "spindle-tools",
+        "pattern-planning",
+        "weft-review",
+        "warp-security",
+        "tapestry-category-routing"
+      ],
+      "bundleReportPath": "runs/v1/80ffde6-2026-09-05-001/public-report.json"
     }
   ]
 }
