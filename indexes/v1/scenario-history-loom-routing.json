@@ -1,13 +1,23 @@
 {
   "schemaVersion": 1,
   "suite": "loom-routing",
-  "updatedAt": "2026-09-25T01:46:13.987Z",
+  "updatedAt": "2026-09-25T04:13:41.173Z",
   "scenarios": [
     {
       "caseId": "loom-route-ambiguous-direct-shuttle",
       "title": "loom-route-ambiguous-direct-shuttle",
       "description": "required routing case failed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
+        {
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 8,
+          "passedModels": 7,
+          "failedModels": 1,
+          "skippedModels": 0
+        },
         {
           "runId": "1fff43e-2026-09-25-001",
           "assembledAt": "2026-09-25T01:46:13.724Z",
@@ -26,6 +36,16 @@
       "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 8,
+          "passedModels": 8,
+          "failedModels": 0,
+          "skippedModels": 0
+        },
+        {
           "runId": "1fff43e-2026-09-25-001",
           "assembledAt": "2026-09-25T01:46:13.724Z",
           "status": "pass",
@@ -42,6 +62,16 @@
       "title": "loom-route-frontend-ui",
       "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
+        {
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 8,
+          "passedModels": 8,
+          "failedModels": 0,
+          "skippedModels": 0
+        },
         {
           "runId": "1fff43e-2026-09-25-001",
           "assembledAt": "2026-09-25T01:46:13.724Z",
@@ -60,6 +90,16 @@
       "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 8,
+          "passedModels": 8,
+          "failedModels": 0,
+          "skippedModels": 0
+        },
+        {
           "runId": "1fff43e-2026-09-25-001",
           "assembledAt": "2026-09-25T01:46:13.724Z",
           "status": "pass",
@@ -76,6 +116,16 @@
       "title": "loom-route-pattern-plan-migration",
       "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
+        {
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 8,
+          "passedModels": 8,
+          "failedModels": 0,
+          "skippedModels": 0
+        },
         {
           "runId": "1fff43e-2026-09-25-001",
           "assembledAt": "2026-09-25T01:46:13.724Z",
@@ -94,6 +144,16 @@
       "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 8,
+          "passedModels": 8,
+          "failedModels": 0,
+          "skippedModels": 0
+        },
+        {
           "runId": "1fff43e-2026-09-25-001",
           "assembledAt": "2026-09-25T01:46:13.724Z",
           "status": "pass",
@@ -110,6 +170,16 @@
       "title": "loom-route-shuttle-implement-utility",
       "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
+        {
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 8,
+          "passedModels": 8,
+          "failedModels": 0,
+          "skippedModels": 0
+        },
         {
           "runId": "1fff43e-2026-09-25-001",
           "assembledAt": "2026-09-25T01:46:13.724Z",
@@ -128,6 +198,16 @@
       "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 8,
+          "passedModels": 6,
+          "failedModels": 2,
+          "skippedModels": 0
+        },
+        {
           "runId": "1fff43e-2026-09-25-001",
           "assembledAt": "2026-09-25T01:46:13.724Z",
           "status": "partial",
@@ -144,6 +224,16 @@
       "title": "loom-route-spindle-research-oauth-pkce",
       "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
+        {
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 8,
+          "passedModels": 7,
+          "failedModels": 1,
+          "skippedModels": 0
+        },
         {
           "runId": "1fff43e-2026-09-25-001",
           "assembledAt": "2026-09-25T01:46:13.724Z",
@@ -162,6 +252,16 @@
       "description": "required routing case failed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 8,
+          "passedModels": 6,
+          "failedModels": 2,
+          "skippedModels": 0
+        },
+        {
           "runId": "1fff43e-2026-09-25-001",
           "assembledAt": "2026-09-25T01:46:13.724Z",
           "status": "partial",
@@ -178,6 +278,16 @@
       "title": "loom-route-thread-explore-auth-flow",
       "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
+        {
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 8,
+          "passedModels": 8,
+          "failedModels": 0,
+          "skippedModels": 0
+        },
         {
           "runId": "1fff43e-2026-09-25-001",
           "assembledAt": "2026-09-25T01:46:13.724Z",
@@ -196,6 +306,16 @@
       "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 8,
+          "passedModels": 7,
+          "failedModels": 1,
+          "skippedModels": 0
+        },
+        {
           "runId": "1fff43e-2026-09-25-001",
           "assembledAt": "2026-09-25T01:46:13.724Z",
           "status": "partial",
@@ -212,6 +332,16 @@
       "title": "loom-route-warp-security-audit-auth-flow",
       "description": "required routing case failed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
+        {
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 8,
+          "passedModels": 8,
+          "failedModels": 0,
+          "skippedModels": 0
+        },
         {
           "runId": "1fff43e-2026-09-25-001",
           "assembledAt": "2026-09-25T01:46:13.724Z",
@@ -230,6 +360,16 @@
       "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 8,
+          "passedModels": 8,
+          "failedModels": 0,
+          "skippedModels": 0
+        },
+        {
           "runId": "1fff43e-2026-09-25-001",
           "assembledAt": "2026-09-25T01:46:13.724Z",
           "status": "partial",
@@ -246,6 +386,16 @@
       "title": "loom-route-weft-review-checkout-pr",
       "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
+        {
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 8,
+          "passedModels": 8,
+          "failedModels": 0,
+          "skippedModels": 0
+        },
         {
           "runId": "1fff43e-2026-09-25-001",
           "assembledAt": "2026-09-25T01:46:13.724Z",
