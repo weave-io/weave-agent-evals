@@ -1,13 +1,23 @@
 {
   "schemaVersion": 1,
   "suite": "warp-security",
-  "updatedAt": "2026-09-25T01:46:13.987Z",
+  "updatedAt": "2026-09-25T04:13:41.173Z",
   "scenarios": [
     {
       "caseId": "warp-security-block-evidence-findings",
       "title": "warp-security-block-evidence-findings",
       "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
       "lastRuns": [
+        {
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 8,
+          "passedModels": 5,
+          "failedModels": 3,
+          "skippedModels": 0
+        },
         {
           "runId": "1fff43e-2026-09-25-001",
           "assembledAt": "2026-09-25T01:46:13.724Z",
@@ -25,6 +35,16 @@
       "title": "warp-security-fast-exit-approve",
       "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
       "lastRuns": [
+        {
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 8,
+          "passedModels": 5,
+          "failedModels": 3,
+          "skippedModels": 0
+        },
         {
           "runId": "1fff43e-2026-09-25-001",
           "assembledAt": "2026-09-25T01:46:13.724Z",
