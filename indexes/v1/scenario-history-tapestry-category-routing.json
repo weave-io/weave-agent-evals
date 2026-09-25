@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
   "suite": "tapestry-category-routing",
-  "updatedAt": "2026-09-05T21:00:29.939Z",
+  "updatedAt": "2026-09-25T01:46:13.987Z",
   "scenarios": [
     {
       "caseId": "tcr-01-exact-match",
       "title": "tcr-01-exact-match",
-      "description": "required routing case partially passed; dimensions: routingCorrectness",
+      "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "80ffde6-2026-09-05-001",
-          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "runId": "1fff43e-2026-09-25-001",
+          "assembledAt": "2026-09-25T01:46:13.724Z",
           "status": "pass",
           "passed": true,
-          "totalModels": 8,
-          "passedModels": 8,
+          "totalModels": 9,
+          "passedModels": 9,
           "failedModels": 0,
           "skippedModels": 0
         }
@@ -23,16 +23,16 @@
     {
       "caseId": "tcr-02-multiple-files",
       "title": "tcr-02-multiple-files",
-      "description": "required routing case partially passed; dimensions: routingCorrectness",
+      "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "80ffde6-2026-09-05-001",
-          "assembledAt": "2026-09-05T21:00:29.642Z",
-          "status": "pass",
-          "passed": true,
-          "totalModels": 8,
+          "runId": "1fff43e-2026-09-25-001",
+          "assembledAt": "2026-09-25T01:46:13.724Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 9,
           "passedModels": 8,
-          "failedModels": 0,
+          "failedModels": 1,
           "skippedModels": 0
         }
       ]
@@ -40,15 +40,15 @@
     {
       "caseId": "tcr-03-windows-paths",
       "title": "tcr-03-windows-paths",
-      "description": "required routing case partially passed; dimensions: routingCorrectness",
+      "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "80ffde6-2026-09-05-001",
-          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "runId": "1fff43e-2026-09-25-001",
+          "assembledAt": "2026-09-25T01:46:13.724Z",
           "status": "pass",
           "passed": true,
-          "totalModels": 8,
-          "passedModels": 8,
+          "totalModels": 9,
+          "passedModels": 9,
           "failedModels": 0,
           "skippedModels": 0
         }
@@ -57,15 +57,15 @@
     {
       "caseId": "tcr-04-no-match",
       "title": "tcr-04-no-match",
-      "description": "required routing case partially passed; dimensions: routingCorrectness",
+      "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "80ffde6-2026-09-05-001",
-          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "runId": "1fff43e-2026-09-25-001",
+          "assembledAt": "2026-09-25T01:46:13.724Z",
           "status": "pass",
           "passed": true,
-          "totalModels": 8,
-          "passedModels": 8,
+          "totalModels": 9,
+          "passedModels": 9,
           "failedModels": 0,
           "skippedModels": 0
         }
@@ -74,16 +74,16 @@
     {
       "caseId": "tcr-05-cross-category",
       "title": "tcr-05-cross-category",
-      "description": "optional routing case partially passed; dimensions: routingCorrectness",
+      "description": "optional routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "80ffde6-2026-09-05-001",
-          "assembledAt": "2026-09-05T21:00:29.642Z",
-          "status": "partial",
-          "passed": false,
-          "totalModels": 8,
-          "passedModels": 7,
-          "failedModels": 1,
+          "runId": "1fff43e-2026-09-25-001",
+          "assembledAt": "2026-09-25T01:46:13.724Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 9,
+          "passedModels": 9,
+          "failedModels": 0,
           "skippedModels": 0
         }
       ]
@@ -91,15 +91,15 @@
     {
       "caseId": "tcr-06-overlap",
       "title": "tcr-06-overlap",
-      "description": "optional routing case partially passed; dimensions: routingCorrectness",
+      "description": "optional routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "80ffde6-2026-09-05-001",
-          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "runId": "1fff43e-2026-09-25-001",
+          "assembledAt": "2026-09-25T01:46:13.724Z",
           "status": "pass",
           "passed": true,
-          "totalModels": 8,
-          "passedModels": 8,
+          "totalModels": 9,
+          "passedModels": 9,
           "failedModels": 0,
           "skippedModels": 0
         }
@@ -108,15 +108,15 @@
     {
       "caseId": "tcr-07-explicit-hint",
       "title": "tcr-07-explicit-hint",
-      "description": "optional routing case partially passed; dimensions: routingCorrectness",
+      "description": "optional routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "80ffde6-2026-09-05-001",
-          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "runId": "1fff43e-2026-09-25-001",
+          "assembledAt": "2026-09-25T01:46:13.724Z",
           "status": "pass",
           "passed": true,
-          "totalModels": 8,
-          "passedModels": 8,
+          "totalModels": 9,
+          "passedModels": 9,
           "failedModels": 0,
           "skippedModels": 0
         }
@@ -125,16 +125,16 @@
     {
       "caseId": "tcr-08-misleading-prose",
       "title": "tcr-08-misleading-prose",
-      "description": "required routing case partially passed; dimensions: routingCorrectness",
+      "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "80ffde6-2026-09-05-001",
-          "assembledAt": "2026-09-05T21:00:29.642Z",
-          "status": "partial",
-          "passed": false,
-          "totalModels": 8,
-          "passedModels": 6,
-          "failedModels": 2,
+          "runId": "1fff43e-2026-09-25-001",
+          "assembledAt": "2026-09-25T01:46:13.724Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 9,
+          "passedModels": 9,
+          "failedModels": 0,
           "skippedModels": 0
         }
       ]
@@ -142,15 +142,15 @@
     {
       "caseId": "tcr-09-similar-names",
       "title": "tcr-09-similar-names",
-      "description": "required routing case partially passed; dimensions: routingCorrectness",
+      "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "80ffde6-2026-09-05-001",
-          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "runId": "1fff43e-2026-09-25-001",
+          "assembledAt": "2026-09-25T01:46:13.724Z",
           "status": "pass",
           "passed": true,
-          "totalModels": 8,
-          "passedModels": 8,
+          "totalModels": 9,
+          "passedModels": 9,
           "failedModels": 0,
           "skippedModels": 0
         }
@@ -159,15 +159,15 @@
     {
       "caseId": "tcr-10-disabled-category",
       "title": "tcr-10-disabled-category",
-      "description": "required routing case partially passed; dimensions: routingCorrectness",
+      "description": "required routing case passed; dimensions: routingCorrectness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "80ffde6-2026-09-05-001",
-          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "runId": "1fff43e-2026-09-25-001",
+          "assembledAt": "2026-09-25T01:46:13.724Z",
           "status": "pass",
           "passed": true,
-          "totalModels": 8,
-          "passedModels": 8,
+          "totalModels": 9,
+          "passedModels": 9,
           "failedModels": 0,
           "skippedModels": 0
         }
