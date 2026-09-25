@@ -1,30 +1,23 @@
 {
   "schemaVersion": 1,
   "suite": "tapestry-execution",
-  "updatedAt": "2026-09-25T01:46:13.987Z",
+  "updatedAt": "2026-09-25T04:13:41.173Z",
   "scenarios": [
-    {
-      "caseId": "tapestry-accepts-evidenced-report",
-      "title": "tapestry-accepts-evidenced-report",
-      "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
-      "lastRuns": [
-        {
-          "runId": "1fff43e-2026-09-25-001",
-          "assembledAt": "2026-09-25T01:46:13.724Z",
-          "status": "partial",
-          "passed": false,
-          "totalModels": 9,
-          "passedModels": 8,
-          "failedModels": 1,
-          "skippedModels": 0
-        }
-      ]
-    },
     {
       "caseId": "tapestry-delegate-to-shuttle",
       "title": "tapestry-delegate-to-shuttle",
       "description": "required delegation case passed; dimensions: delegationCorrectness, rationaleQuality",
       "lastRuns": [
+        {
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 8,
+          "passedModels": 8,
+          "failedModels": 0,
+          "skippedModels": 0
+        },
         {
           "runId": "1fff43e-2026-09-25-001",
           "assembledAt": "2026-09-25T01:46:13.724Z",
@@ -43,6 +36,16 @@
       "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
       "lastRuns": [
         {
+          "runId": "80ffde6-2026-09-05-001",
+          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 8,
+          "passedModels": 8,
+          "failedModels": 0,
+          "skippedModels": 0
+        },
+        {
           "runId": "1fff43e-2026-09-25-001",
           "assembledAt": "2026-09-25T01:46:13.724Z",
           "status": "pass",
@@ -50,6 +53,23 @@
           "totalModels": 9,
           "passedModels": 9,
           "failedModels": 0,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "tapestry-accepts-evidenced-report",
+      "title": "tapestry-accepts-evidenced-report",
+      "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "1fff43e-2026-09-25-001",
+          "assembledAt": "2026-09-25T01:46:13.724Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 9,
+          "passedModels": 8,
+          "failedModels": 1,
           "skippedModels": 0
         }
       ]
