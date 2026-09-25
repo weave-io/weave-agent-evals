@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "suite": "warp-security",
-  "updatedAt": "2026-09-05T21:00:29.939Z",
+  "updatedAt": "2026-09-25T01:46:13.987Z",
   "scenarios": [
     {
       "caseId": "warp-security-block-evidence-findings",
       "title": "warp-security-block-evidence-findings",
-      "description": "required execution case partially passed; dimensions: executionCompleteness, rationaleQuality",
+      "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "80ffde6-2026-09-05-001",
-          "assembledAt": "2026-09-05T21:00:29.642Z",
-          "status": "partial",
-          "passed": false,
-          "totalModels": 8,
-          "passedModels": 5,
-          "failedModels": 3,
+          "runId": "1fff43e-2026-09-25-001",
+          "assembledAt": "2026-09-25T01:46:13.724Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 9,
+          "passedModels": 9,
+          "failedModels": 0,
           "skippedModels": 0
         }
       ]
@@ -23,15 +23,49 @@
     {
       "caseId": "warp-security-fast-exit-approve",
       "title": "warp-security-fast-exit-approve",
-      "description": "required execution case failed; dimensions: executionCompleteness, rationaleQuality",
+      "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "80ffde6-2026-09-05-001",
-          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "runId": "1fff43e-2026-09-25-001",
+          "assembledAt": "2026-09-25T01:46:13.724Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 9,
+          "passedModels": 9,
+          "failedModels": 0,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "warp-security-guarded-false-positive",
+      "title": "warp-security-guarded-false-positive",
+      "description": "required execution case failed with a partial score; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "1fff43e-2026-09-25-001",
+          "assembledAt": "2026-09-25T01:46:13.724Z",
           "status": "partial",
           "passed": false,
-          "totalModels": 8,
+          "totalModels": 9,
           "passedModels": 5,
+          "failedModels": 4,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "warp-security-traced-injection",
+      "title": "warp-security-traced-injection",
+      "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "1fff43e-2026-09-25-001",
+          "assembledAt": "2026-09-25T01:46:13.724Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 9,
+          "passedModels": 6,
           "failedModels": 3,
           "skippedModels": 0
         }
