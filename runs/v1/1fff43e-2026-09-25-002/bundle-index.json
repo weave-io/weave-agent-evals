@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "assembledAt": "2026-09-25T02:08:30.775Z",
+  "gitSha": "1fff43ef7edbedbd0c1500273fd35eedf378ebd7",
+  "dryRun": false,
+  "runId": "1fff43e-2026-09-25-002",
+  "runSummary": {
+    "totalCases": 20,
+    "passedCases": 18,
+    "failedCases": 1,
+    "erroredCases": 1,
+    "allSuitesGreen": false,
+    "suites": [
+      "loom-routing",
+      "tapestry-execution",
+      "shuttle-execution"
+    ]
+  },
+  "judge": {
+    "id": "typesafe/jev-1.13",
+    "version": "typesafe/jev-1.13-20260917"
+  },
+  "publicFiles": [
+    "bundle-index.json",
+    "public-report.json",
+    "public-report.md"
+  ]
+}
