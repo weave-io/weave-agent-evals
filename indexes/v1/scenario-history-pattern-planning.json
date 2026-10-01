@@ -1,58 +1,55 @@
 {
   "schemaVersion": 1,
   "suite": "pattern-planning",
-  "updatedAt": "2026-09-25T04:13:41.173Z",
+  "updatedAt": "2026-10-01T21:18:17.615Z",
   "scenarios": [
     {
-      "caseId": "pattern-plan-release-checklist",
-      "title": "pattern-plan-release-checklist",
+      "caseId": "pattern-plan-codegen-before-consumers",
+      "title": "pattern-plan-codegen-before-consumers",
       "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "80ffde6-2026-09-05-001",
-          "assembledAt": "2026-09-05T21:00:29.642Z",
-          "status": "partial",
-          "passed": false,
-          "totalModels": 8,
-          "passedModels": 3,
-          "failedModels": 5,
-          "skippedModels": 0
-        },
-        {
-          "runId": "1fff43e-2026-09-25-001",
-          "assembledAt": "2026-09-25T01:46:13.724Z",
-          "status": "partial",
-          "passed": false,
-          "totalModels": 9,
-          "passedModels": 6,
-          "failedModels": 3,
+          "runId": "4ee1fea-2026-10-01-001",
+          "assembledAt": "2026-10-01T21:18:17.195Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 14,
+          "passedModels": 14,
+          "failedModels": 0,
           "skippedModels": 0
         }
       ]
     },
     {
-      "caseId": "pattern-plan-settings-refactor",
-      "title": "pattern-plan-settings-refactor",
+      "caseId": "pattern-plan-flags-open-retention-decision",
+      "title": "pattern-plan-flags-open-retention-decision",
+      "description": "required execution case failed; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "4ee1fea-2026-10-01-001",
+          "assembledAt": "2026-10-01T21:18:17.195Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 14,
+          "passedModels": 9,
+          "failedModels": 5,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "pattern-plan-keeps-no-dependency-constraint",
+      "title": "pattern-plan-keeps-no-dependency-constraint",
       "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "80ffde6-2026-09-05-001",
-          "assembledAt": "2026-09-05T21:00:29.642Z",
-          "status": "partial",
-          "passed": false,
-          "totalModels": 8,
-          "passedModels": 3,
-          "failedModels": 5,
-          "skippedModels": 0
-        },
-        {
-          "runId": "1fff43e-2026-09-25-001",
-          "assembledAt": "2026-09-25T01:46:13.724Z",
-          "status": "partial",
-          "passed": false,
-          "totalModels": 9,
-          "passedModels": 8,
-          "failedModels": 1,
+          "runId": "4ee1fea-2026-10-01-001",
+          "assembledAt": "2026-10-01T21:18:17.195Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 14,
+          "passedModels": 14,
+          "failedModels": 0,
           "skippedModels": 0
         }
       ]
@@ -63,13 +60,132 @@
       "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "1fff43e-2026-09-25-001",
-          "assembledAt": "2026-09-25T01:46:13.724Z",
+          "runId": "4ee1fea-2026-10-01-001",
+          "assembledAt": "2026-10-01T21:18:17.195Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 14,
+          "passedModels": 13,
+          "failedModels": 1,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "pattern-plan-release-checklist",
+      "title": "pattern-plan-release-checklist",
+      "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "4ee1fea-2026-10-01-001",
+          "assembledAt": "2026-10-01T21:18:17.195Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 14,
+          "passedModels": 7,
+          "failedModels": 7,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "pattern-plan-reuses-existing-throttle",
+      "title": "pattern-plan-reuses-existing-throttle",
+      "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "4ee1fea-2026-10-01-001",
+          "assembledAt": "2026-10-01T21:18:17.195Z",
           "status": "pass",
           "passed": true,
-          "totalModels": 9,
-          "passedModels": 9,
+          "totalModels": 14,
+          "passedModels": 14,
           "failedModels": 0,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "pattern-plan-rolling-deploy-rename",
+      "title": "pattern-plan-rolling-deploy-rename",
+      "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "4ee1fea-2026-10-01-001",
+          "assembledAt": "2026-10-01T21:18:17.195Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 14,
+          "passedModels": 14,
+          "failedModels": 0,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "pattern-plan-scopes-out-adjacent-todo",
+      "title": "pattern-plan-scopes-out-adjacent-todo",
+      "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "4ee1fea-2026-10-01-001",
+          "assembledAt": "2026-10-01T21:18:17.195Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 14,
+          "passedModels": 14,
+          "failedModels": 0,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "pattern-plan-separates-major-upgrade",
+      "title": "pattern-plan-separates-major-upgrade",
+      "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "4ee1fea-2026-10-01-001",
+          "assembledAt": "2026-10-01T21:18:17.195Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 14,
+          "passedModels": 12,
+          "failedModels": 2,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "pattern-plan-settings-refactor",
+      "title": "pattern-plan-settings-refactor",
+      "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "4ee1fea-2026-10-01-001",
+          "assembledAt": "2026-10-01T21:18:17.195Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 14,
+          "passedModels": 10,
+          "failedModels": 4,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "pattern-plan-stale-contributing-commands",
+      "title": "pattern-plan-stale-contributing-commands",
+      "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "4ee1fea-2026-10-01-001",
+          "assembledAt": "2026-10-01T21:18:17.195Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 14,
+          "passedModels": 13,
+          "failedModels": 1,
           "skippedModels": 0
         }
       ]
@@ -80,13 +196,13 @@
       "description": "required execution case failed; dimensions: executionCompleteness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "1fff43e-2026-09-25-001",
-          "assembledAt": "2026-09-25T01:46:13.724Z",
+          "runId": "4ee1fea-2026-10-01-001",
+          "assembledAt": "2026-10-01T21:18:17.195Z",
           "status": "partial",
           "passed": false,
-          "totalModels": 9,
-          "passedModels": 8,
-          "failedModels": 1,
+          "totalModels": 14,
+          "passedModels": 9,
+          "failedModels": 5,
           "skippedModels": 0
         }
       ]
