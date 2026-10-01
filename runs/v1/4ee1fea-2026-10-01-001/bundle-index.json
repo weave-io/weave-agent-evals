@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "assembledAt": "2026-10-01T21:18:17.195Z",
+  "gitSha": "4ee1fea77d89a942f7e7188dcdd4416446c50517",
+  "dryRun": false,
+  "runId": "4ee1fea-2026-10-01-001",
+  "runSummary": {
+    "totalCases": 1372,
+    "passedCases": 1219,
+    "failedCases": 151,
+    "erroredCases": 2,
+    "allSuitesGreen": false,
+    "suites": [
+      "loom-routing",
+      "tapestry-execution",
+      "shuttle-execution",
+      "spindle-tools",
+      "pattern-planning",
+      "weft-review",
+      "warp-security",
+      "tapestry-category-routing"
+    ],
+    "track": "text"
+  },
+  "judge": {
+    "id": "typesafe/jev-1.13",
+    "version": "typesafe/jev-1.13-20260917"
+  },
+  "configMode": "builtin",
+  "publicFiles": [
+    "bundle-index.json",
+    "public-report.json",
+    "public-report.md"
+  ]
+}
