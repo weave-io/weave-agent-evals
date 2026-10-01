@@ -1,31 +1,157 @@
 {
   "schemaVersion": 1,
   "suite": "spindle-tools",
-  "updatedAt": "2026-09-25T04:13:41.173Z",
+  "updatedAt": "2026-10-01T21:18:17.615Z",
   "scenarios": [
+    {
+      "caseId": "spindle-tools-answers-the-question-asked",
+      "title": "spindle-tools-answers-the-question-asked",
+      "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "4ee1fea-2026-10-01-001",
+          "assembledAt": "2026-10-01T21:18:17.195Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 14,
+          "passedModels": 10,
+          "failedModels": 4,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "spindle-tools-calibrates-low-confidence",
+      "title": "spindle-tools-calibrates-low-confidence",
+      "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "4ee1fea-2026-10-01-001",
+          "assembledAt": "2026-10-01T21:18:17.195Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 14,
+          "passedModels": 14,
+          "failedModels": 0,
+          "skippedModels": 0
+        }
+      ]
+    },
     {
       "caseId": "spindle-tools-citations-facts-confidence",
       "title": "spindle-tools-citations-facts-confidence",
       "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "80ffde6-2026-09-05-001",
-          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "runId": "4ee1fea-2026-10-01-001",
+          "assembledAt": "2026-10-01T21:18:17.195Z",
           "status": "partial",
           "passed": false,
-          "totalModels": 8,
-          "passedModels": 6,
+          "totalModels": 14,
+          "passedModels": 13,
+          "failedModels": 1,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "spindle-tools-flags-outdated-source",
+      "title": "spindle-tools-flags-outdated-source",
+      "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "4ee1fea-2026-10-01-001",
+          "assembledAt": "2026-10-01T21:18:17.195Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 14,
+          "passedModels": 12,
           "failedModels": 2,
           "skippedModels": 0
-        },
+        }
+      ]
+    },
+    {
+      "caseId": "spindle-tools-local-code-out-of-scope",
+      "title": "spindle-tools-local-code-out-of-scope",
+      "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
         {
-          "runId": "1fff43e-2026-09-25-001",
-          "assembledAt": "2026-09-25T01:46:13.724Z",
+          "runId": "4ee1fea-2026-10-01-001",
+          "assembledAt": "2026-10-01T21:18:17.195Z",
           "status": "partial",
           "passed": false,
-          "totalModels": 9,
-          "passedModels": 8,
+          "totalModels": 14,
+          "passedModels": 13,
           "failedModels": 1,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "spindle-tools-no-unverified-live-facts",
+      "title": "spindle-tools-no-unverified-live-facts",
+      "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "4ee1fea-2026-10-01-001",
+          "assembledAt": "2026-10-01T21:18:17.195Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 14,
+          "passedModels": 13,
+          "failedModels": 1,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "spindle-tools-official-docs-over-blog",
+      "title": "spindle-tools-official-docs-over-blog",
+      "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "4ee1fea-2026-10-01-001",
+          "assembledAt": "2026-10-01T21:18:17.195Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 14,
+          "passedModels": 13,
+          "failedModels": 1,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "spindle-tools-reconciles-conflicting-sources",
+      "title": "spindle-tools-reconciles-conflicting-sources",
+      "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "4ee1fea-2026-10-01-001",
+          "assembledAt": "2026-10-01T21:18:17.195Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 14,
+          "passedModels": 14,
+          "failedModels": 0,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "spindle-tools-says-not-found",
+      "title": "spindle-tools-says-not-found",
+      "description": "required execution case failed; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "4ee1fea-2026-10-01-001",
+          "assembledAt": "2026-10-01T21:18:17.195Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 14,
+          "passedModels": 12,
+          "failedModels": 2,
           "skippedModels": 0
         }
       ]
@@ -36,23 +162,47 @@
       "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "80ffde6-2026-09-05-001",
-          "assembledAt": "2026-09-05T21:00:29.642Z",
+          "runId": "4ee1fea-2026-10-01-001",
+          "assembledAt": "2026-10-01T21:18:17.195Z",
           "status": "partial",
           "passed": false,
-          "totalModels": 8,
-          "passedModels": 7,
-          "failedModels": 1,
+          "totalModels": 14,
+          "passedModels": 12,
+          "failedModels": 2,
           "skippedModels": 0
-        },
+        }
+      ]
+    },
+    {
+      "caseId": "spindle-tools-summary-keeps-caveat",
+      "title": "spindle-tools-summary-keeps-caveat",
+      "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
         {
-          "runId": "1fff43e-2026-09-25-001",
-          "assembledAt": "2026-09-25T01:46:13.724Z",
+          "runId": "4ee1fea-2026-10-01-001",
+          "assembledAt": "2026-10-01T21:18:17.195Z",
           "status": "pass",
           "passed": true,
-          "totalModels": 9,
-          "passedModels": 9,
+          "totalModels": 14,
+          "passedModels": 14,
           "failedModels": 0,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "spindle-tools-version-mismatch",
+      "title": "spindle-tools-version-mismatch",
+      "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "4ee1fea-2026-10-01-001",
+          "assembledAt": "2026-10-01T21:18:17.195Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 14,
+          "passedModels": 11,
+          "failedModels": 3,
           "skippedModels": 0
         }
       ]
