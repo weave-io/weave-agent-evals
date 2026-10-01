@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "suite": "warp-security",
-  "updatedAt": "2026-09-25T04:13:41.173Z",
+  "updatedAt": "2026-10-01T21:18:17.615Z",
   "scenarios": [
     {
       "caseId": "warp-security-block-evidence-findings",
@@ -9,23 +9,64 @@
       "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "80ffde6-2026-09-05-001",
-          "assembledAt": "2026-09-05T21:00:29.642Z",
-          "status": "partial",
-          "passed": false,
-          "totalModels": 8,
-          "passedModels": 5,
-          "failedModels": 3,
-          "skippedModels": 0
-        },
-        {
-          "runId": "1fff43e-2026-09-25-001",
-          "assembledAt": "2026-09-25T01:46:13.724Z",
+          "runId": "4ee1fea-2026-10-01-001",
+          "assembledAt": "2026-10-01T21:18:17.195Z",
           "status": "pass",
           "passed": true,
-          "totalModels": 9,
-          "passedModels": 9,
+          "totalModels": 14,
+          "passedModels": 14,
           "failedModels": 0,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "warp-security-copy-target-authz",
+      "title": "warp-security-copy-target-authz",
+      "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "4ee1fea-2026-10-01-001",
+          "assembledAt": "2026-10-01T21:18:17.195Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 14,
+          "passedModels": 14,
+          "failedModels": 0,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "warp-security-cors-exact-allowlist",
+      "title": "warp-security-cors-exact-allowlist",
+      "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "4ee1fea-2026-10-01-001",
+          "assembledAt": "2026-10-01T21:18:17.195Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 14,
+          "passedModels": 12,
+          "failedModels": 2,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "warp-security-cors-origin-pattern",
+      "title": "warp-security-cors-origin-pattern",
+      "description": "required execution case failed; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "4ee1fea-2026-10-01-001",
+          "assembledAt": "2026-10-01T21:18:17.195Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 14,
+          "passedModels": 10,
+          "failedModels": 4,
           "skippedModels": 0
         }
       ]
@@ -36,22 +77,12 @@
       "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "80ffde6-2026-09-05-001",
-          "assembledAt": "2026-09-05T21:00:29.642Z",
-          "status": "partial",
-          "passed": false,
-          "totalModels": 8,
-          "passedModels": 5,
-          "failedModels": 3,
-          "skippedModels": 0
-        },
-        {
-          "runId": "1fff43e-2026-09-25-001",
-          "assembledAt": "2026-09-25T01:46:13.724Z",
+          "runId": "4ee1fea-2026-10-01-001",
+          "assembledAt": "2026-10-01T21:18:17.195Z",
           "status": "pass",
           "passed": true,
-          "totalModels": 9,
-          "passedModels": 9,
+          "totalModels": 14,
+          "passedModels": 14,
           "failedModels": 0,
           "skippedModels": 0
         }
@@ -63,13 +94,82 @@
       "description": "required execution case failed with a partial score; dimensions: executionCompleteness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "1fff43e-2026-09-25-001",
-          "assembledAt": "2026-09-25T01:46:13.724Z",
+          "runId": "4ee1fea-2026-10-01-001",
+          "assembledAt": "2026-10-01T21:18:17.195Z",
           "status": "partial",
           "passed": false,
-          "totalModels": 9,
-          "passedModels": 5,
+          "totalModels": 14,
+          "passedModels": 11,
+          "failedModels": 3,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "warp-security-guarded-parameterised-sql",
+      "title": "warp-security-guarded-parameterised-sql",
+      "description": "required execution case failed with a partial score; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "4ee1fea-2026-10-01-001",
+          "assembledAt": "2026-10-01T21:18:17.195Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 14,
+          "passedModels": 10,
           "failedModels": 4,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "warp-security-path-prefix-bypass",
+      "title": "warp-security-path-prefix-bypass",
+      "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "4ee1fea-2026-10-01-001",
+          "assembledAt": "2026-10-01T21:18:17.195Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 13,
+          "passedModels": 11,
+          "failedModels": 2,
+          "skippedModels": 1,
+          "erroredModels": 1
+        }
+      ]
+    },
+    {
+      "caseId": "warp-security-prototype-pollution-merge",
+      "title": "warp-security-prototype-pollution-merge",
+      "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "4ee1fea-2026-10-01-001",
+          "assembledAt": "2026-10-01T21:18:17.195Z",
+          "status": "pass",
+          "passed": true,
+          "totalModels": 14,
+          "passedModels": 14,
+          "failedModels": 0,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "warp-security-ssrf-redirect-bypass",
+      "title": "warp-security-ssrf-redirect-bypass",
+      "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "4ee1fea-2026-10-01-001",
+          "assembledAt": "2026-10-01T21:18:17.195Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 14,
+          "passedModels": 12,
+          "failedModels": 2,
           "skippedModels": 0
         }
       ]
@@ -80,12 +180,29 @@
       "description": "required execution case passed; dimensions: executionCompleteness, rationaleQuality",
       "lastRuns": [
         {
-          "runId": "1fff43e-2026-09-25-001",
-          "assembledAt": "2026-09-25T01:46:13.724Z",
+          "runId": "4ee1fea-2026-10-01-001",
+          "assembledAt": "2026-10-01T21:18:17.195Z",
           "status": "partial",
           "passed": false,
-          "totalModels": 9,
-          "passedModels": 6,
+          "totalModels": 14,
+          "passedModels": 10,
+          "failedModels": 4,
+          "skippedModels": 0
+        }
+      ]
+    },
+    {
+      "caseId": "warp-security-unawaited-signature-check",
+      "title": "warp-security-unawaited-signature-check",
+      "description": "required execution case failed; dimensions: executionCompleteness, rationaleQuality",
+      "lastRuns": [
+        {
+          "runId": "4ee1fea-2026-10-01-001",
+          "assembledAt": "2026-10-01T21:18:17.195Z",
+          "status": "partial",
+          "passed": false,
+          "totalModels": 14,
+          "passedModels": 11,
           "failedModels": 3,
           "skippedModels": 0
         }
